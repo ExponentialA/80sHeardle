@@ -10227,6 +10227,7 @@ var app = (function() {
 "Faith No More - We Care A Lot",
 "The Clash - Know Your Rights",
 "Aerosmith - The Other Side",
+"Roxy Music - Avalon",
 "Chris De Burgh - Missing You",
 "Billy Idol - Catch My Fall",
 "Beastie Boys - Body Movin'",

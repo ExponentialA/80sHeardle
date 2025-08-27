@@ -10298,6 +10298,7 @@ var app = (function() {
 "Kim Wilde - Never Trust A Stranger",
 "Run DMC - It's Tricky",
 "Van Halen - Finish What Ya Started",
+"Bizz Nizz - Don't Miss The Party Line",
 "Depeche Mode - Dreaming Of Me",
 "The Pretenders - Mystery Achievement",
 "Sheena Easton - Strut",
@@ -15247,6 +15248,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/vanhalenofficial/finish-what-ya-started",
             answer: "Van Halen - Finish What Ya Started",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/bizznizz-music/dont-miss-the-party-line",
+            answer: "Bizz Nizz - Don't Miss The Party Line",
           },
                                                                                                     {
             url: "https://soundcloud.com/depeche_mode/dreaming-of-me-2006-remastered",

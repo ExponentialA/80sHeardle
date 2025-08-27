@@ -10268,6 +10268,7 @@ var app = (function() {
 "Bon Jovi - Let It Rock",
 "INXS - Guns In The Sky",
 "Public Enemy - Fight The Power",
+"Queen - Who Wants To Live Forever",
 "U2 - Red Hill Mining Town",
 "Klymaxx - Meeting In The Ladies Room",
 "Squeeze - Tempted",

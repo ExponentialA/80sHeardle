@@ -10290,6 +10290,11 @@ var app = (function() {
 "Prince - If I Was Your Girlfriend",
 "Tears For Fears - Mothers Talk",
 "Chris De Burgh - High On Emotion",
+"John Mellencamp - Hurts So Good",
+"Electric Light Orchestra - All Over The World",
+"Bob Marley & The Wailers - Could You Be Loved",
+"Queen - Save Me",
+"ABBA - I Have A Dream",
 "Sly & Robbie - Boops (Here To Go)",
 "Yello - Oh Yeah",
 "Crowded House - Into Temptation",
@@ -10305,6 +10310,8 @@ var app = (function() {
 "AC/DC - Moneytalks",
 "Kylie Minogue - Je Ne Sais Pas Pourquoi",
 "Pet Shop Boys - Paninaro",
+"John Mellencamp - Pink Houses",
+"The Cure - A Forest",
 "London Boys - London Nights",
 "Tina Turner - Better Be Good To Me",
 "Tears For Fears - Mad World",
@@ -10319,8 +10326,11 @@ var app = (function() {
 "Eurythmics - Love Is A Stranger",
 "Christine McVie - Got A Hold On Me",
 "Warrant - Cherry Pie",
+"Bob Marley & The Wailers - Redemption Song",
+"John Mellencamp - Authority Song",
 "Eddie Money - Take Me Home Tonight",
 "Paula Abdul - Opposites Attract",
+"Queen - Flash",
 "Winger - Headed For A Heartbreak",
 "Bon Jovi - Raise Your Hands",
 "Naked Eyes - Promises, Promises",
@@ -10329,7 +10339,14 @@ var app = (function() {
 "The Jacksons - Can You Feel It",
 "The Stone Roses - She Bangs The Drums",
 "Was (Not Was) - Spy In The House Of Love",
+"Mike Reno & Anne Wilson - Almost Paradise",
 "R.E.M. - Finest Worksong",
+"The Bodysnatchers - Do Rock Steady",
+"The Jam - Start"
+"Robert Palmer - Looking For Clues",
+"John Mellencamp - Paper In Fire",
+"Heatwave - Gansters Of The Groove",
+"Paul McCartney - Wonderful Christmastime",
 
 
     ]),
@@ -15218,6 +15235,26 @@ var app = (function() {
             answer: "Chris De Burgh - High On Emotion",
           },
                                                                                                     {
+            url: "https://soundcloud.com/john-mellencamp/hurts-so-good-album-version",
+            answer: "John Mellencamp - Hurts So Good",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/electric-light-orchestra/all-over-the-world-1",
+            answer: "Electric Light Orchestra - All Over The World",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/bob-marley-the-wailers/could-you-be-loved-album",
+            answer: "Bob Marley & The Wailers - Could You Be Loved",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/queen-69312/save-me-remastered-2011",
+            answer: "Queen - Save Me",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/abba-official/i-have-a-dream-1",
+            answer: "ABBA - I Have A Dream",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/sly-robbie/boops-here-to-go",
             answer: "Sly & Robbie - Boops (Here To Go)",
           },
@@ -15278,6 +15315,14 @@ var app = (function() {
             answer: "Pet Shop Boys - Paninaro",
           },
                                                                                                     {
+            url: "https://soundcloud.com/john-mellencamp/pink-houses-album-version",
+            answer: "John Mellencamp - Pink Houses",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/thecureofficial/a-forest",
+            answer: "The Cure - A Forest",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/londonboys/london-nights",
             answer: "London Boys - London Nights",
           },
@@ -15334,12 +15379,24 @@ var app = (function() {
             answer: "Warrant - Cherry Pie",
           },
                                                                                                     {
+            url: "https://soundcloud.com/bob-marley-the-wailers/redemption-song-album-version",
+            answer: "Bob Marley & The Wailers - Redemption Song",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/john-mellencamp/authority-song-album-version",
+            answer: "John Mellencamp - Authority Song",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/eddie-money-official/take-me-home-tonight-1",
             answer: "Eddie Money - Take Me Home Tonight",
           },
                                                                                                     {
             url: "https://soundcloud.com/paula-abdul-official/opposites-attract-2",
             answer: "Paula Abdul - Opposites Attract",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/queen-69312/flash-remastered-2011",
+            answer: "Queen - Flash",
           },
                                                                                                     {
             url: "https://soundcloud.com/wingerofficial/winger-headed-for-a-heartbreak",
@@ -15374,8 +15431,36 @@ var app = (function() {
             answer: "Was (Not Was) - Spy In The House Of Love",
           },
                                                                                                     {
+            url: "https://soundcloud.com/mikerenoofficial/almost-paradise-love-theme-1",
+            answer: "Mike Reno & Anne Wilson - Almost Paradise",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/rem-official/finest-worksong-1",
             answer: "R.E.M. - Finest Worksong",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/thebodysnatchersmusic/lets-do-rock-steady",
+            answer: "The Bodysnatchers - Do Rock Steady",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/the-jam-official/start-album-version",
+            answer: "The Jam - Start",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/robert-palmer-official/looking-for-clues-album",
+            answer: "Robert Palmer - Looking For Clues",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/john-mellencamp/paper-in-fire-album-version",
+            answer: "John Mellencamp - Paper In Fire",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",
+            answer: "Heatwave - Gansters Of The Groove",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",
+            answer: "Paul McCartney - Wonderful Christmastime",
           },
 
         

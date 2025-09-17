@@ -10342,10 +10342,10 @@ var app = (function() {
 "Mike Reno & Anne Wilson - Almost Paradise",
 "R.E.M. - Finest Worksong",
 "The Bodysnatchers - Do Rock Steady",
-"The Jam - Start"
+"The Jam - Start",
 "Robert Palmer - Looking For Clues",
 "John Mellencamp - Paper In Fire",
-"Heatwave - Gansters Of The Groove",
+"Heatwave - Gangsters Of The Groove",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15456,7 +15456,7 @@ var app = (function() {
           },
                                                                                                     {
             url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",
-            answer: "Heatwave - Gansters Of The Groove",
+            answer: "Heatwave - Gangsters Of The Groove",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

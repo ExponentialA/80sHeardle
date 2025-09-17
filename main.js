@@ -10309,6 +10309,7 @@ var app = (function() {
 "Sheena Easton - Strut",
 "AC/DC - Moneytalks",
 "Kylie Minogue - Je Ne Sais Pas Pourquoi",
+"Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
 "Pet Shop Boys - Paninaro",
 "John Mellencamp - Pink Houses",
 "The Cure - A Forest",
@@ -10330,14 +10331,17 @@ var app = (function() {
 "John Mellencamp - Authority Song",
 "Eddie Money - Take Me Home Tonight",
 "Paula Abdul - Opposites Attract",
+"ABBA - One Of Us",
 "Queen - Flash",
 "Winger - Headed For A Heartbreak",
 "Bon Jovi - Raise Your Hands",
 "Naked Eyes - Promises, Promises",
 "Luther Vandross - Never Too Much",
+"Phil Collins - I Missed Again",
 "Aretha Franklin - Jump To It",
 "The Jacksons - Can You Feel It",
 "The Stone Roses - She Bangs The Drums",
+"Stevie Wonder - Lately",
 "Was (Not Was) - Spy In The House Of Love",
 "Mike Reno & Anne Wilson - Almost Paradise",
 "R.E.M. - Finest Worksong",
@@ -10345,6 +10349,7 @@ var app = (function() {
 "The Jam - Start",
 "Robert Palmer - Looking For Clues",
 "John Mellencamp - Paper In Fire",
+"Cambodia - Kim Wilde",
 "Heatwave - Gangsters Of The Groove",
 "Paul McCartney - Wonderful Christmastime",
 
@@ -15310,6 +15315,10 @@ var app = (function() {
             url: "https://soundcloud.com/kylie-minogue-official/je-ne-sais-pas-pourquoi",
             answer: "Kylie Minogue - Je Ne Sais Pas Pourquoi",
           },
+                                                                                                   {
+            url: "https://soundcloud.com/rodstewartofficial/rod-stewart-tonight-im-yours",
+            answer: "Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
+          },
                                                                                                     {
             url: "https://soundcloud.com/petshopboysofficial/paninaro",
             answer: "Pet Shop Boys - Paninaro",
@@ -15395,6 +15404,10 @@ var app = (function() {
             answer: "Paula Abdul - Opposites Attract",
           },
                                                                                                     {
+            url: "https://soundcloud.com/abba-official/one-of-us",
+            answer: "ABBA - One Of Us",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/queen-69312/flash-remastered-2011",
             answer: "Queen - Flash",
           },
@@ -15415,6 +15428,10 @@ var app = (function() {
             answer: "Luther Vandross - Never Too Much",
           },
                                                                                                     {
+            url: "https://soundcloud.com/phil-collins-official/i-missed-again-2015-remastered",
+            answer: "Phil Collins - I Missed Again",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/arethafranklin/jump-to-it-2",
             answer: "Aretha Franklin - Jump To It",
           },
@@ -15425,6 +15442,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/the-stone-roses/she-bangs-the-drums-remastered",
             answer: "The Stone Roses - She Bangs The Drums",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/stevie-wonder-official/lately",
+            answer: "Stevie Wonder - Lately",
           },
                                                                                                     {
             url: "https://soundcloud.com/was-not-was/spy-in-the-house-of-love-2",
@@ -15453,6 +15474,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/john-mellencamp/paper-in-fire-album-version",
             answer: "John Mellencamp - Paper In Fire",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/kim-wilde-official/cambodia",
+            answer: "Cambodia - Kim Wilde",
           },
                                                                                                     {
             url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",

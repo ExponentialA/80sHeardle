@@ -10313,6 +10313,7 @@ var app = (function() {
 "Pet Shop Boys - Paninaro",
 "John Mellencamp - Pink Houses",
 "The Cure - A Forest",
+"Iron Maiden - Run To The Hills",
 "London Boys - London Nights",
 "Tina Turner - Better Be Good To Me",
 "Tears For Fears - Mad World",
@@ -10321,6 +10322,7 @@ var app = (function() {
 "The Stranglers - Always The Sun",
 "Ultravox - Vienna",
 "Skid Row - Youth Gone Wild",
+"Kraftwerk - Music Non-Stop",
 "Faith No More - From Out Of Nowhere",
 "The Clash - The Call Up",
 "Berlin - The Metro",
@@ -10338,6 +10340,7 @@ var app = (function() {
 "Naked Eyes - Promises, Promises",
 "Luther Vandross - Never Too Much",
 "Phil Collins - I Missed Again",
+"Dire Straits - Private Investigations",
 "Aretha Franklin - Jump To It",
 "The Jacksons - Can You Feel It",
 "The Stone Roses - She Bangs The Drums",
@@ -10351,6 +10354,10 @@ var app = (function() {
 "John Mellencamp - Paper In Fire",
 "Cambodia - Kim Wilde",
 "Heatwave - Gangsters Of The Groove",
+"Kraftwerk - Computer Love",
+"Genesis - No Reply At All",
+"Depeche Mode - Leave In Silence",
+"Simple Minds - Glittering Prize",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15332,6 +15339,10 @@ var app = (function() {
             answer: "The Cure - A Forest",
           },
                                                                                                     {
+            url: "https://soundcloud.com/brad-hoffner/iron-maiden-run-to-the-hills-1",
+            answer: "Iron Maiden - Run To The Hills",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/londonboys/london-nights",
             answer: "London Boys - London Nights",
           },
@@ -15362,6 +15373,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/skidrowofficial/youth-gone-wild",
             answer: "Skid Row - Youth Gone Wild",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/kraftwerkofficial/kraftwerk-music-non-stop-2009",
+            answer: "Kraftwerk - Music Non-Stop",
           },
                                                                                                     {
             url: "https://soundcloud.com/faithnomore/from-out-of-nowhere",
@@ -15432,6 +15447,10 @@ var app = (function() {
             answer: "Phil Collins - I Missed Again",
           },
                                                                                                     {
+            url: "https://soundcloud.com/direstraits/private-investigations-album",
+            answer: "Dire Straits - Private Investigations",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/arethafranklin/jump-to-it-2",
             answer: "Aretha Franklin - Jump To It",
           },
@@ -15482,6 +15501,22 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",
             answer: "Heatwave - Gangsters Of The Groove",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/kraftwerkofficial/computer-love-2009-remastered",
+            answer: "Kraftwerk - Computer Love",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/genesis4/no-reply-at-all-2007",
+            answer: "Genesis - No Reply At All",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/depeche_mode/leave-in-silence-2006",
+            answer: "Depeche Mode - Leave In Silence",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/simple-minds-official/glittering-prize",
+            answer: "Simple Minds - Glittering Prize",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

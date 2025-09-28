@@ -10303,18 +10303,22 @@ var app = (function() {
 "Kim Wilde - Never Trust A Stranger",
 "Run DMC - It's Tricky",
 "Van Halen - Finish What Ya Started",
+"Billy Joel - Pressure",
 "Bizz Nizz - Don't Miss The Party Line",
 "Depeche Mode - Dreaming Of Me",
 "The Pretenders - Mystery Achievement",
+"Ozzy Osbourne - Goodbye To Romance",
 "Sheena Easton - Strut",
 "AC/DC - Moneytalks",
 "Kylie Minogue - Je Ne Sais Pas Pourquoi",
+"Bob Marley & The Wailers - Buffalo Soldier",
 "Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
 "Pet Shop Boys - Paninaro",
 "John Mellencamp - Pink Houses",
 "The Cure - A Forest",
 "Iron Maiden - Run To The Hills",
 "London Boys - London Nights",
+"Billy Joel - Don't Ask Me Why",
 "Tina Turner - Better Be Good To Me",
 "Tears For Fears - Mad World",
 "Whitesnake - Still Of The Night",
@@ -10329,25 +10333,33 @@ var app = (function() {
 "Eurythmics - Love Is A Stranger",
 "Christine McVie - Got A Hold On Me",
 "Warrant - Cherry Pie",
+"Billy Joel - An Innocent Man",
 "Bob Marley & The Wailers - Redemption Song",
+"Depeche Mode - Get The Balance Right",
 "John Mellencamp - Authority Song",
 "Eddie Money - Take Me Home Tonight",
 "Paula Abdul - Opposites Attract",
 "ABBA - One Of Us",
 "Queen - Flash",
 "Winger - Headed For A Heartbreak",
+"Paul McCartney - Pipes Of Peace",
 "Bon Jovi - Raise Your Hands",
 "Naked Eyes - Promises, Promises",
 "Luther Vandross - Never Too Much",
+"New Order - Blue Monday",
 "Phil Collins - I Missed Again",
 "Dire Straits - Private Investigations",
 "Aretha Franklin - Jump To It",
+"Billy Joel - Keeping The Faith",
 "The Jacksons - Can You Feel It",
 "The Stone Roses - She Bangs The Drums",
+"U2 - Two Hearts Beat As One",
 "Stevie Wonder - Lately",
+"Elton John - Kiss The Bride",
 "Was (Not Was) - Spy In The House Of Love",
 "Mike Reno & Anne Wilson - Almost Paradise",
 "R.E.M. - Finest Worksong",
+"The Police - Synchronicity I",
 "The Bodysnatchers - Do Rock Steady",
 "The Jam - Start",
 "Robert Palmer - Looking For Clues",
@@ -10355,9 +10367,13 @@ var app = (function() {
 "Cambodia - Kim Wilde",
 "Heatwave - Gangsters Of The Groove",
 "Kraftwerk - Computer Love",
+"Billy Joel - Big Man On Mulberry Street",
 "Genesis - No Reply At All",
 "Depeche Mode - Leave In Silence",
+"Camouflage - The Great Commandment",
+"New Edition - Candy Girl",
 "Simple Minds - Glittering Prize",
+"Spandau Ballet - Gold",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15299,6 +15315,10 @@ var app = (function() {
             answer: "Van Halen - Finish What Ya Started",
           },
                                                                                                     {
+            url: "https://soundcloud.com/billyjoel/pressure",
+            answer: "Billy Joel - Pressure",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/bizznizz-music/dont-miss-the-party-line",
             answer: "Bizz Nizz - Don't Miss The Party Line",
           },
@@ -15311,6 +15331,14 @@ var app = (function() {
             answer: "The Pretenders - Mystery Achievement",
           },
                                                                                                     {
+            url: "https://soundcloud.com/the-pretenders/mystery-achievement-2",
+            answer: "The Pretenders - Mystery Achievement",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/ozzy-osbourne-official/goodbye-to-romance-remastered",
+            answer: "Ozzy Osbourne - Goodbye To Romance",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/sheena-easton/strut",
             answer: "Sheena Easton - Strut",
           },
@@ -15321,6 +15349,10 @@ var app = (function() {
                                                                                                    {
             url: "https://soundcloud.com/kylie-minogue-official/je-ne-sais-pas-pourquoi",
             answer: "Kylie Minogue - Je Ne Sais Pas Pourquoi",
+          },
+                                                                                                   {
+            url: "https://soundcloud.com/bob-marley-the-wailers/buffalo-soldier-album-version",
+            answer: "Bob Marley & The Wailers - Buffalo Soldier",
           },
                                                                                                    {
             url: "https://soundcloud.com/rodstewartofficial/rod-stewart-tonight-im-yours",
@@ -15345,6 +15377,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/londonboys/london-nights",
             answer: "London Boys - London Nights",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/billyjoel/dont-ask-me-why",
+            answer: "Billy Joel - Don't Ask Me Why",
           },
                                                                                                     {
             url: "https://soundcloud.com/tina-turner-official/better-be-good-to-me-1",
@@ -15403,8 +15439,16 @@ var app = (function() {
             answer: "Warrant - Cherry Pie",
           },
                                                                                                     {
+            url: "https://soundcloud.com/billyjoel/an-innocent-man",
+            answer: "Billy Joel - An Innocent Man",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/bob-marley-the-wailers/redemption-song-album-version",
             answer: "Bob Marley & The Wailers - Redemption Song",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/depeche_mode/get-the-balance-right",
+            answer: "Depeche Mode - Get The Balance Right",
           },
                                                                                                     {
             url: "https://soundcloud.com/john-mellencamp/authority-song-album-version",
@@ -15431,6 +15475,10 @@ var app = (function() {
             answer: "Winger - Headed For A Heartbreak",
           },
                                                                                                     {
+            url: "https://soundcloud.com/paulmccartney/pipes-of-peace-2015",
+            answer: "Paul McCartney - Pipes Of Peace",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/bonjovi/raise-your-hands",
             answer: "Bon Jovi - Raise Your Hands",
           },
@@ -15441,6 +15489,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/luthervandrossmusic/never-too-much-2",
             answer: "Luther Vandross - Never Too Much",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/neworderofficial/blue-monday-2016-remaster",
+            answer: "New Order - Blue Monday",
           },
                                                                                                     {
             url: "https://soundcloud.com/phil-collins-official/i-missed-again-2015-remastered",
@@ -15455,6 +15507,10 @@ var app = (function() {
             answer: "Aretha Franklin - Jump To It",
           },
                                                                                                     {
+            url: "https://soundcloud.com/billyjoel/keeping-the-faith-album",
+            answer: "Billy Joel - Keeping The Faith",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/the-jacksons-official/can-you-feel-it-3",
             answer: "The Jacksons - Can You Feel It",
           },
@@ -15463,8 +15519,16 @@ var app = (function() {
             answer: "The Stone Roses - She Bangs The Drums",
           },
                                                                                                     {
+            url: "https://soundcloud.com/u2/two-hearts-beat-as-one",
+            answer: "U2 - Two Hearts Beat As One",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/stevie-wonder-official/lately",
             answer: "Stevie Wonder - Lately",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/elton-john/kiss-the-bride",
+            answer: "Elton John - Kiss The Bride",
           },
                                                                                                     {
             url: "https://soundcloud.com/was-not-was/spy-in-the-house-of-love-2",
@@ -15477,6 +15541,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/rem-official/finest-worksong-1",
             answer: "R.E.M. - Finest Worksong",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/the-police-official/synchronicity-i-2003-stereo",
+            answer: "The Police - Synchronicity I",
           },
                                                                                                     {
             url: "https://soundcloud.com/thebodysnatchersmusic/lets-do-rock-steady",
@@ -15507,6 +15575,10 @@ var app = (function() {
             answer: "Kraftwerk - Computer Love",
           },
                                                                                                     {
+            url: "https://soundcloud.com/billyjoel/big-man-on-mulberry-street",
+            answer: "Billy Joel - Big Man On Mulberry Street",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/genesis4/no-reply-at-all-2007",
             answer: "Genesis - No Reply At All",
           },
@@ -15515,8 +15587,20 @@ var app = (function() {
             answer: "Depeche Mode - Leave In Silence",
           },
                                                                                                     {
+            url: "https://soundcloud.com/camouflage-official/the-great-commandment-2",
+            answer: "Camouflage - The Great Commandment",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/neweditionofficial/candy-girl-2",
+            answer: "New Edition - Candy Girl",
+          },
+                                                                                                    {
             url: "https://soundcloud.com/simple-minds-official/glittering-prize",
             answer: "Simple Minds - Glittering Prize",
+          },
+                                                                                                    {
+            url: "https://soundcloud.com/spandau_ballet/gold",
+            answer: "Spandau Ballet - Gold",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

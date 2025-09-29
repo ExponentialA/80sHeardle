@@ -10307,6 +10307,7 @@ var app = (function() {
 "Bizz Nizz - Don't Miss The Party Line",
 "Depeche Mode - Dreaming Of Me",
 "The Pretenders - Mystery Achievement",
+"Shakin' Stevens - Teardrops",
 "Ozzy Osbourne - Goodbye To Romance",
 "Sheena Easton - Strut",
 "AC/DC - Moneytalks",
@@ -10314,6 +10315,7 @@ var app = (function() {
 "Bob Marley & The Wailers - Buffalo Soldier",
 "Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
 "Pet Shop Boys - Paninaro",
+"David Bowie - Blue Jean",
 "John Mellencamp - Pink Houses",
 "The Cure - A Forest",
 "Iron Maiden - Run To The Hills",
@@ -10330,8 +10332,10 @@ var app = (function() {
 "Faith No More - From Out Of Nowhere",
 "The Clash - The Call Up",
 "Berlin - The Metro",
+"The Cure - Close To Me",
 "Eurythmics - Love Is A Stranger",
 "Christine McVie - Got A Hold On Me",
+"Howard Jones - Like To Get To Know You Well",
 "Warrant - Cherry Pie",
 "Billy Joel - An Innocent Man",
 "Bob Marley & The Wailers - Redemption Song",
@@ -10348,6 +10352,7 @@ var app = (function() {
 "Luther Vandross - Never Too Much",
 "New Order - Blue Monday",
 "Phil Collins - I Missed Again",
+    "The Cure - Fascination Street",
 "Dire Straits - Private Investigations",
 "Aretha Franklin - Jump To It",
 "Billy Joel - Keeping The Faith",
@@ -10361,10 +10366,13 @@ var app = (function() {
 "R.E.M. - Finest Worksong",
 "The Police - Synchronicity I",
 "The Bodysnatchers - Do Rock Steady",
+"Queen - Hammer To Fall",
 "The Jam - Start",
 "Robert Palmer - Looking For Clues",
+    "The Cure - Why Can't I Be You?",
 "John Mellencamp - Paper In Fire",
 "Cambodia - Kim Wilde",
+    "Paul Young - Everything Must Change",
 "Heatwave - Gangsters Of The Groove",
 "Kraftwerk - Computer Love",
 "Billy Joel - Big Man On Mulberry Street",
@@ -10374,6 +10382,9 @@ var app = (function() {
 "New Edition - Candy Girl",
 "Simple Minds - Glittering Prize",
 "Spandau Ballet - Gold",
+"Weird Al Yankovic - Eat It",
+    "The Cure - Plainsong",
+    "Shakin' Stevens - This Ole House",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15331,8 +15342,8 @@ var app = (function() {
             answer: "The Pretenders - Mystery Achievement",
           },
                                                                                                     {
-            url: "https://soundcloud.com/the-pretenders/mystery-achievement-2",
-            answer: "The Pretenders - Mystery Achievement",
+            url: "https://soundcloud.com/shakinstevens-music/teardrops",
+            answer: "Shakin' Stevens - Teardrops",
           },
                                                                                                     {
             url: "https://soundcloud.com/ozzy-osbourne-official/goodbye-to-romance-remastered",
@@ -15361,6 +15372,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/petshopboysofficial/paninaro",
             answer: "Pet Shop Boys - Paninaro",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/davidbowieofficial/blue-jean-1999-remastered",
+            answer: "David Bowie - Blue Jean",
           },
                                                                                                     {
             url: "https://soundcloud.com/john-mellencamp/pink-houses-album-version",
@@ -15426,6 +15441,10 @@ var app = (function() {
             url: "https://soundcloud.com/berlin-official/the-metro",
             answer: "Berlin - The Metro",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/thecureofficial/close-to-me",
+            answer: "The Cure - Close To Me",
+          },
                                                                                                     {
             url: "https://soundcloud.com/eurythmics-official/love-is-a-stranger-remastered",
             answer: "Eurythmics - Love Is A Stranger",
@@ -15433,6 +15452,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/christine-mcvie/got-a-hold-on-me",
             answer: "Christine McVie - Got A Hold On Me",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/howard-jones-official/like-to-get-to-know-you-well",
+            answer: "Howard Jones - Like To Get To Know You Well",
           },
                                                                                                     {
             url: "https://soundcloud.com/warrantofficial/cherry-pie-1",
@@ -15498,6 +15521,10 @@ var app = (function() {
             url: "https://soundcloud.com/phil-collins-official/i-missed-again-2015-remastered",
             answer: "Phil Collins - I Missed Again",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/thecureofficial/fascination-street-1",
+            answer: "The Cure - Fascination Street",
+          },
                                                                                                     {
             url: "https://soundcloud.com/direstraits/private-investigations-album",
             answer: "Dire Straits - Private Investigations",
@@ -15550,6 +15577,10 @@ var app = (function() {
             url: "https://soundcloud.com/thebodysnatchersmusic/lets-do-rock-steady",
             answer: "The Bodysnatchers - Do Rock Steady",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/queen-69312/hammer-to-fall-remastered",
+            answer: "Queen - Hammer To Fall",
+          },
                                                                                                     {
             url: "https://soundcloud.com/the-jam-official/start-album-version",
             answer: "The Jam - Start",
@@ -15558,6 +15589,10 @@ var app = (function() {
             url: "https://soundcloud.com/robert-palmer-official/looking-for-clues-album",
             answer: "Robert Palmer - Looking For Clues",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/thecureofficial/why-cant-i-be-like-you",
+            answer: "The Cure - Why Can't I Be You?",
+          },
                                                                                                     {
             url: "https://soundcloud.com/john-mellencamp/paper-in-fire-album-version",
             answer: "John Mellencamp - Paper In Fire",
@@ -15565,6 +15600,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/kim-wilde-official/cambodia",
             answer: "Cambodia - Kim Wilde",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/paulyoung-sc/everything-must-change",
+            answer: "Paul Young - Everything Must Change",
           },
                                                                                                     {
             url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",
@@ -15601,6 +15640,18 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/spandau_ballet/gold",
             answer: "Spandau Ballet - Gold",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/weird-al-yankovic-official",
+            answer: "Weird Al Yankovic - Eat It",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/thecureofficial/plainsong",
+            answer: "The Cure - Plainsong",
+          },
+                                                                                                                                  {
+            url: "https://soundcloud.com/shakinstevens/this-ole-house-single-version",
+            answer: "Shakin' Stevens - This Ole House",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

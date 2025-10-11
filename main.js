@@ -10306,6 +10306,8 @@ var app = (function() {
 "Billy Joel - Pressure",
 "Bizz Nizz - Don't Miss The Party Line",
 "Depeche Mode - Dreaming Of Me",
+"Elton John - Wrap Her Up",
+"Dio - Holy Diver",
 "The Pretenders - Mystery Achievement",
 "Shakin' Stevens - Teardrops",
 "Ozzy Osbourne - Goodbye To Romance",
@@ -10313,7 +10315,9 @@ var app = (function() {
 "AC/DC - Moneytalks",
 "Kylie Minogue - Je Ne Sais Pas Pourquoi",
 "Bob Marley & The Wailers - Buffalo Soldier",
+    "Opus - Live Is Life",
 "Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
+"Bryan Adams - This Time",
 "Pet Shop Boys - Paninaro",
 "David Bowie - Blue Jean",
 "John Mellencamp - Pink Houses",
@@ -10327,8 +10331,10 @@ var app = (function() {
 "Aaron Neville & Linda Ronstadt - Don't Know Much",
 "The Stranglers - Always The Sun",
 "Ultravox - Vienna",
+"Paul Mccartney - Spies Like Us",
 "Skid Row - Youth Gone Wild",
 "Kraftwerk - Music Non-Stop",
+"Bryan Adams - Somebody",
 "Faith No More - From Out Of Nowhere",
 "The Clash - The Call Up",
 "Berlin - The Metro",
@@ -10345,6 +10351,7 @@ var app = (function() {
 "Paula Abdul - Opposites Attract",
 "ABBA - One Of Us",
 "Queen - Flash",
+"Bryan Adams ft. Tina Turner - It's Only Love",
 "Winger - Headed For A Heartbreak",
 "Paul McCartney - Pipes Of Peace",
 "Bon Jovi - Raise Your Hands",
@@ -10368,11 +10375,15 @@ var app = (function() {
 "The Bodysnatchers - Do Rock Steady",
 "Queen - Hammer To Fall",
 "The Jam - Start",
+"Paul Hardcastle - 19",
 "Robert Palmer - Looking For Clues",
-    "The Cure - Why Can't I Be You?",
+"Bryan Adams - One Night Love Affair",
+"The Cure - Why Can't I Be You?",
 "John Mellencamp - Paper In Fire",
 "Cambodia - Kim Wilde",
-    "Paul Young - Everything Must Change",
+    "Dio - Raimbow In The Dark",
+"Paul Young - Everything Must Change",
+"David Bowie & Mick Jagger - Dancing In The Street",
 "Heatwave - Gangsters Of The Groove",
 "Kraftwerk - Computer Love",
 "Billy Joel - Big Man On Mulberry Street",
@@ -10383,8 +10394,11 @@ var app = (function() {
 "Simple Minds - Glittering Prize",
 "Spandau Ballet - Gold",
 "Weird Al Yankovic - Eat It",
-    "The Cure - Plainsong",
-    "Shakin' Stevens - This Ole House",
+"The Cure - Plainsong",
+"Shakin' Stevens - This Ole House",
+"John Mellencamp - Lonely Ol' Night",
+    "Depeche Mode - It's Called A Heart",
+    "Faster Pussycat - House Of Pain",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15337,6 +15351,14 @@ var app = (function() {
             url: "https://soundcloud.com/depeche_mode/dreaming-of-me-2006-remastered",
             answer: "Depeche Mode - Dreaming Of Me",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/elton-john/wrap-her-up",
+            answer: "Elton John - Wrap Her Up",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/dioofficial/holy-diver-1",
+            answer: "Dio - Holy Diver",
+          },
                                                                                                     {
             url: "https://soundcloud.com/the-pretenders/mystery-achievement-2",
             answer: "The Pretenders - Mystery Achievement",
@@ -15365,9 +15387,17 @@ var app = (function() {
             url: "https://soundcloud.com/bob-marley-the-wailers/buffalo-soldier-album-version",
             answer: "Bob Marley & The Wailers - Buffalo Soldier",
           },
+                                                                                                             {
+            url: "https://soundcloud.com/opus-scmusic/live-is-life-digitally",
+            answer: "Opus - Live Is Life",
+          },
                                                                                                    {
             url: "https://soundcloud.com/rodstewartofficial/rod-stewart-tonight-im-yours",
             answer: "Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
+          },
+                                                                                                             {
+            url: "https://soundcloud.com/bryanadams/this-time",
+            answer: "Bryan Adams - This Time",
           },
                                                                                                     {
             url: "https://soundcloud.com/petshopboysofficial/paninaro",
@@ -15421,6 +15451,10 @@ var app = (function() {
             url: "https://soundcloud.com/ultravoxuk/vienna",
             answer: "Ultravox - Vienna",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/paulmccartney/paul-mccartney-spies-like-us",
+            answer: "Paul Mccartney - Spies Like Us",
+          },
                                                                                                     {
             url: "https://soundcloud.com/skidrowofficial/youth-gone-wild",
             answer: "Skid Row - Youth Gone Wild",
@@ -15428,6 +15462,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/kraftwerkofficial/kraftwerk-music-non-stop-2009",
             answer: "Kraftwerk - Music Non-Stop",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/bryanadams/somebody-classic-version",
+            answer: "Bryan Adams - Somebody",
           },
                                                                                                     {
             url: "https://soundcloud.com/faithnomore/from-out-of-nowhere",
@@ -15492,6 +15530,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/queen-69312/flash-remastered-2011",
             answer: "Queen - Flash",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/bryanadams/its-only-love-classic-version",
+            answer: "Bryan Adams ft. Tina Turner - It's Only Love",
           },
                                                                                                     {
             url: "https://soundcloud.com/wingerofficial/winger-headed-for-a-heartbreak",
@@ -15585,9 +15627,17 @@ var app = (function() {
             url: "https://soundcloud.com/the-jam-official/start-album-version",
             answer: "The Jam - Start",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/paulhardcastle/19-1",
+            answer: "Paul Hardcastle - 19",
+          },
                                                                                                     {
             url: "https://soundcloud.com/robert-palmer-official/looking-for-clues-album",
             answer: "Robert Palmer - Looking For Clues",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/bryanadams/one-night-love-affair",
+            answer: "Bryan Adams - One Night Love Affair",
           },
                                                                                                               {
             url: "https://soundcloud.com/thecureofficial/why-cant-i-be-like-you",
@@ -15601,9 +15651,17 @@ var app = (function() {
             url: "https://soundcloud.com/kim-wilde-official/cambodia",
             answer: "Cambodia - Kim Wilde",
           },
+                                                                                                        {
+            url: "https://soundcloud.com/dioofficial/dio-rainbow-in-the-dark",
+            answer: "Dio - Raimbow In The Dark",
+          },
                                                                                                               {
             url: "https://soundcloud.com/paulyoung-sc/everything-must-change",
             answer: "Paul Young - Everything Must Change",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/davidbowieofficial/dancing-in-the-street-edit",
+            answer: "David Bowie & Mick Jagger - Dancing In The Street",
           },
                                                                                                     {
             url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",
@@ -15652,6 +15710,18 @@ var app = (function() {
                                                                                                                                   {
             url: "https://soundcloud.com/shakinstevens/this-ole-house-single-version",
             answer: "Shakin' Stevens - This Ole House",
+          },
+                                                                                                                                            {
+            url: "https://soundcloud.com/john-mellencamp/lonely-ol-night",
+            answer: "John Mellencamp - Lonely Ol' Night",
+          },
+                                                                                                                                                      {
+            url: "https://soundcloud.com/depeche_mode/its-called-a-heart-single",
+            answer: "Depeche Mode - It's Called A Heart",
+          },
+                                                                                                                                                                {
+            url: "https://soundcloud.com/fasterpussycatofficial/faster-pussycat-house-of-pain",
+            answer: "Faster Pussycat - House Of Pain",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

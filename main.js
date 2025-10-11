@@ -10306,8 +10306,6 @@ var app = (function() {
 "Billy Joel - Pressure",
 "Bizz Nizz - Don't Miss The Party Line",
 "Depeche Mode - Dreaming Of Me",
-"Elton John - Wrap Her Up",
-"Dio - Holy Diver",
 "The Pretenders - Mystery Achievement",
 "Shakin' Stevens - Teardrops",
 "Ozzy Osbourne - Goodbye To Romance",
@@ -10319,6 +10317,8 @@ var app = (function() {
 "Rod Stewart - Tonight I'm Yours (Don't Hurt Me)",
 "Bryan Adams - This Time",
 "Pet Shop Boys - Paninaro",
+    "Elton John - Wrap Her Up",
+"Dio - Holy Diver",
 "David Bowie - Blue Jean",
 "John Mellencamp - Pink Houses",
 "The Cure - A Forest",
@@ -15351,14 +15351,6 @@ var app = (function() {
             url: "https://soundcloud.com/depeche_mode/dreaming-of-me-2006-remastered",
             answer: "Depeche Mode - Dreaming Of Me",
           },
-                                                                                                              {
-            url: "https://soundcloud.com/elton-john/wrap-her-up",
-            answer: "Elton John - Wrap Her Up",
-          },
-                                                                                                              {
-            url: "https://soundcloud.com/dioofficial/holy-diver-1",
-            answer: "Dio - Holy Diver",
-          },
                                                                                                     {
             url: "https://soundcloud.com/the-pretenders/mystery-achievement-2",
             answer: "The Pretenders - Mystery Achievement",
@@ -15402,6 +15394,14 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/petshopboysofficial/paninaro",
             answer: "Pet Shop Boys - Paninaro",
+          },
+                                                                                                             {
+            url: "https://soundcloud.com/elton-john/wrap-her-up",
+            answer: "Elton John - Wrap Her Up",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/dioofficial/holy-diver-1",
+            answer: "Dio - Holy Diver",
           },
                                                                                                               {
             url: "https://soundcloud.com/davidbowieofficial/blue-jean-1999-remastered",

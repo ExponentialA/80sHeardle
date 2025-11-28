@@ -10365,9 +10365,12 @@ var app = (function() {
 "Billy Joel - Keeping The Faith",
 "The Jacksons - Can You Feel It",
 "The Stone Roses - She Bangs The Drums",
+    "The Psychedelic Furs - Pretty In Pink",
 "U2 - Two Hearts Beat As One",
 "Stevie Wonder - Lately",
 "Elton John - Kiss The Bride",
+    "Ministry - Work For Love",
+    "Paul McCartney - Press",
 "Was (Not Was) - Spy In The House Of Love",
 "Mike Reno & Anne Wilson - Almost Paradise",
 "R.E.M. - Finest Worksong",
@@ -10387,6 +10390,7 @@ var app = (function() {
 "Heatwave - Gangsters Of The Groove",
 "Kraftwerk - Computer Love",
 "Billy Joel - Big Man On Mulberry Street",
+    "Yazoo - Situation",
 "Genesis - No Reply At All",
 "Depeche Mode - Leave In Silence",
 "Camouflage - The Great Commandment",
@@ -10399,6 +10403,9 @@ var app = (function() {
 "John Mellencamp - Lonely Ol' Night",
     "Depeche Mode - It's Called A Heart",
     "Faster Pussycat - House Of Pain",
+    "The B-52's - Rock Lobster",
+    "A-ha - Hunting High And Low",
+    "Samantha Fox - Hold On Tight",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15587,6 +15594,10 @@ var app = (function() {
             url: "https://soundcloud.com/the-stone-roses/she-bangs-the-drums-remastered",
             answer: "The Stone Roses - She Bangs The Drums",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/the-psychedelic-furs/pretty-in-pink-remastered",
+            answer: "The Psychedelic Furs - Pretty In Pink",
+          },
                                                                                                     {
             url: "https://soundcloud.com/u2/two-hearts-beat-as-one",
             answer: "U2 - Two Hearts Beat As One",
@@ -15598,6 +15609,14 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/elton-john/kiss-the-bride",
             answer: "Elton John - Kiss The Bride",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/ministryofficial/work-for-love",
+            answer: "Ministry - Work For Love",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/paulmccartney/press",
+            answer: "Paul McCartney - Press",
           },
                                                                                                     {
             url: "https://soundcloud.com/was-not-was/spy-in-the-house-of-love-2",
@@ -15675,6 +15694,10 @@ var app = (function() {
             url: "https://soundcloud.com/billyjoel/big-man-on-mulberry-street",
             answer: "Billy Joel - Big Man On Mulberry Street",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/yazooofficial/yazoo-situation-u-s-12-mix",
+            answer: "Yazoo - Situation",
+          },
                                                                                                     {
             url: "https://soundcloud.com/genesis4/no-reply-at-all-2007",
             answer: "Genesis - No Reply At All",
@@ -15722,6 +15745,18 @@ var app = (function() {
                                                                                                                                                                 {
             url: "https://soundcloud.com/fasterpussycatofficial/faster-pussycat-house-of-pain",
             answer: "Faster Pussycat - House Of Pain",
+          },
+                                                                                                                                                                          {
+            url: "https://soundcloud.com/theb52sofficial/rock-lobster-2",
+            answer: "The B-52's - Rock Lobster",
+          },
+                                                                                                                                                                          {
+            url: "https://soundcloud.com/anderson_parkes/a-ha-hunting-high-and-low",
+            answer: "A-ha - Hunting High And Low",
+          },
+                                                                                                                                                                          {
+            url: "https://soundcloud.com/samantha-fox-official/hold-on-tight-radio-mix",
+            answer: "Samantha Fox - Hold On Tight",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

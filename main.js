@@ -10365,14 +10365,21 @@ var app = (function() {
 "Billy Joel - Keeping The Faith",
 "The Jacksons - Can You Feel It",
 "The Stone Roses - She Bangs The Drums",
+    "AC/DC - That's The Way I Wanna Rock N' Roll",
+    "Depeche Mode - Behind The Wheel",
     "The Psychedelic Furs - Pretty In Pink",
+    "Danny Wilson - Mary's Prayer",
 "U2 - Two Hearts Beat As One",
 "Stevie Wonder - Lately",
 "Elton John - Kiss The Bride",
+    "Terence Trent D'arby - If You Let Me Stay",
     "Ministry - Work For Love",
     "Paul McCartney - Press",
+    "Duran Duran - Skin Trade",
 "Was (Not Was) - Spy In The House Of Love",
+    "T'Pau - Chine In Your Hand",
 "Mike Reno & Anne Wilson - Almost Paradise",
+    "Timbuk 3 - The Future's So Bright, I Gotta Wear Shades",
 "R.E.M. - Finest Worksong",
 "The Police - Synchronicity I",
 "The Bodysnatchers - Do Rock Steady",
@@ -10380,6 +10387,7 @@ var app = (function() {
 "The Jam - Start",
 "Paul Hardcastle - 19",
 "Robert Palmer - Looking For Clues",
+    "Living In A Box - Living In A Box",
 "Bryan Adams - One Night Love Affair",
 "The Cure - Why Can't I Be You?",
 "John Mellencamp - Paper In Fire",
@@ -10388,6 +10396,9 @@ var app = (function() {
 "Paul Young - Everything Must Change",
 "David Bowie & Mick Jagger - Dancing In The Street",
 "Heatwave - Gangsters Of The Groove",
+    "Rod Stewart - Lost In You",
+    "Erasure - It Doesn't Have To Be",
+    "Tom Jones - It's Not Unusual",
 "Kraftwerk - Computer Love",
 "Billy Joel - Big Man On Mulberry Street",
     "Yazoo - Situation",
@@ -10396,16 +10407,24 @@ var app = (function() {
 "Camouflage - The Great Commandment",
 "New Edition - Candy Girl",
 "Simple Minds - Glittering Prize",
+    "Eric B. & Rakim - Paid In Full",
 "Spandau Ballet - Gold",
 "Weird Al Yankovic - Eat It",
 "The Cure - Plainsong",
+    "Iggy Pop - Real Wild Child (WIld One)",
 "Shakin' Stevens - This Ole House",
+    "AC/DC - Heatseeker",
 "John Mellencamp - Lonely Ol' Night",
     "Depeche Mode - It's Called A Heart",
     "Faster Pussycat - House Of Pain",
     "The B-52's - Rock Lobster",
+    "Billy Idol - Sweet Sixteen",
+    "UB40 & Chrissie Hynde - Breakfast In Bed",
     "A-ha - Hunting High And Low",
     "Samantha Fox - Hold On Tight",
+    "Mel & Kim - Respectable",
+    "Eighth Wonder - Cross My Heart",
+    "Robbie Robertson - Somewhere Down The Crazy River",
 "Paul McCartney - Wonderful Christmastime",
 
 
@@ -15595,8 +15614,20 @@ var app = (function() {
             answer: "The Stone Roses - She Bangs The Drums",
           },
                                                                                                               {
+            url: "https://soundcloud.com/acdcofficial/thats-the-way-i-wanna-rock-n",
+            answer: "AC/DC - That's The Way I Wanna Rock N' Roll",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/depeche_mode/behind-the-wheel-2006",
+            answer: "Depeche Mode - Behind The Wheel",
+          },
+                                                                                                              {
             url: "https://soundcloud.com/the-psychedelic-furs/pretty-in-pink-remastered",
             answer: "The Psychedelic Furs - Pretty In Pink",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/danny-wilson-official/marys-prayer",
+            answer: "Danny Wilson - Mary's Prayer",
           },
                                                                                                     {
             url: "https://soundcloud.com/u2/two-hearts-beat-as-one",
@@ -15611,6 +15642,10 @@ var app = (function() {
             answer: "Elton John - Kiss The Bride",
           },
                                                                                                               {
+            url: "https://soundcloud.com/sanandamaitreyaofficial/if-you-let-me-stay",
+            answer: "Terence Trent D'arby - If You Let Me Stay",
+          },
+                                                                                                              {
             url: "https://soundcloud.com/ministryofficial/work-for-love",
             answer: "Ministry - Work For Love",
           },
@@ -15618,13 +15653,25 @@ var app = (function() {
             url: "https://soundcloud.com/paulmccartney/press",
             answer: "Paul McCartney - Press",
           },
+                                                                                                                        {
+            url: "https://soundcloud.com/duranduran/skin-trade-radio-cut",
+            answer: "Duran Duran - Skin Trade",
+          },
                                                                                                     {
             url: "https://soundcloud.com/was-not-was/spy-in-the-house-of-love-2",
             answer: "Was (Not Was) - Spy In The House Of Love",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/tpau-official/china-in-your-hand-single",
+            answer: "T'Pau - Chine In Your Hand",
+          },
                                                                                                     {
             url: "https://soundcloud.com/mikerenoofficial/almost-paradise-love-theme-1",
             answer: "Mike Reno & Anne Wilson - Almost Paradise",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/timbuk-3/the-futures-so-bright-i-gotta",
+            answer: "Timbuk 3 - The Future's So Bright, I Gotta Wear Shades",
           },
                                                                                                     {
             url: "https://soundcloud.com/rem-official/finest-worksong-1",
@@ -15653,6 +15700,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/robert-palmer-official/looking-for-clues-album",
             answer: "Robert Palmer - Looking For Clues",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/living-in-a-box/living-in-a-box",
+            answer: "Living In A Box - Living In A Box",
           },
                                                                                                               {
             url: "https://soundcloud.com/bryanadams/one-night-love-affair",
@@ -15686,6 +15737,18 @@ var app = (function() {
             url: "https://soundcloud.com/heatwave-official/gangsters-of-the-groove-album",
             answer: "Heatwave - Gangsters Of The Groove",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/rodstewartofficial/lost-in-you",
+            answer: "Rod Stewart - Lost In You",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/erasureofficial/it-doesnt-have-to-be",
+            answer: "Erasure - It Doesn't Have To Be",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/tom-jones-official/its-not-unusual-2nd-studio-1",
+            answer: "Tom Jones - It's Not Unusual",
+          },
                                                                                                     {
             url: "https://soundcloud.com/kraftwerkofficial/computer-love-2009-remastered",
             answer: "Kraftwerk - Computer Love",
@@ -15718,6 +15781,10 @@ var app = (function() {
             url: "https://soundcloud.com/simple-minds-official/glittering-prize",
             answer: "Simple Minds - Glittering Prize",
           },
+                                                                                                              {
+            url: "https://soundcloud.com/eric-b-and-rakim/paid-in-full-album-version",
+            answer: "Eric B. & Rakim - Paid In Full",
+          },
                                                                                                     {
             url: "https://soundcloud.com/spandau_ballet/gold",
             answer: "Spandau Ballet - Gold",
@@ -15731,8 +15798,16 @@ var app = (function() {
             answer: "The Cure - Plainsong",
           },
                                                                                                                                   {
+            url: "https://soundcloud.com/iggypopofficial/real-wild-child-wild-one-1",
+            answer: "Iggy Pop - Real Wild Child (WIld One)",
+          },
+                                                                                                                                  {
             url: "https://soundcloud.com/shakinstevens/this-ole-house-single-version",
             answer: "Shakin' Stevens - This Ole House",
+          },
+                                                                                                                                            {
+            url: "https://soundcloud.com/acdcofficial/heatseeker",
+            answer: "AC/DC - Heatseeker",
           },
                                                                                                                                             {
             url: "https://soundcloud.com/john-mellencamp/lonely-ol-night",
@@ -15750,6 +15825,14 @@ var app = (function() {
             url: "https://soundcloud.com/theb52sofficial/rock-lobster-2",
             answer: "The B-52's - Rock Lobster",
           },
+                                                                                                                                                                                    {
+            url: "https://soundcloud.com/official-billy-idol/sweet-sixteen-2001-digital",
+            answer: "Billy Idol - Sweet Sixteen",
+          },
+                                                                                                                                                                                              {
+            url: "https://soundcloud.com/ub40-official/breakfast-in-bed-1",
+            answer: "UB40 & Chrissie Hynde - Breakfast In Bed",
+          },
                                                                                                                                                                           {
             url: "https://soundcloud.com/anderson_parkes/a-ha-hunting-high-and-low",
             answer: "A-ha - Hunting High And Low",
@@ -15757,6 +15840,18 @@ var app = (function() {
                                                                                                                                                                           {
             url: "https://soundcloud.com/samantha-fox-official/hold-on-tight-radio-mix",
             answer: "Samantha Fox - Hold On Tight",
+          },
+                                                                                                                                                                                    {
+            url: "https://soundcloud.com/melkim/respectable",
+            answer: "Mel & Kim - Respectable",
+          },
+                                                                                                                                                                                              {
+            url: "https://soundcloud.com/eighthwonderofficial/cross-my-heart",
+            answer: "Eighth Wonder - Cross My Heart",
+          },
+                                                                                                                                                                                                        {
+            url: "https://soundcloud.com/robbie-robertson-official/somewhere-down-the-crazy",
+            answer: "Robbie Robertson - Somewhere Down The Crazy River",
           },
                                                                                                     {
             url: "https://soundcloud.com/paulmccartney/wonderful-christmastime-4",

@@ -10394,22 +10394,27 @@ var app = (function() {
     "Debbie Gibson - Electric Youth",
 "The Cure - Why Can't I Be You?",
 "John Mellencamp - Paper In Fire",
+    "Prince - Let's Go Crazy",
     "Texas - I Don't Want A Lover",
 "Cambodia - Kim Wilde",
     "Dio - Rainbow In The Dark",
     "Neneh Cherry - Kisses On The Wind",
     "Guns 'N Roses - Nightrain",
+    "Madonna - Into The Groove",
 "Paul Young - Everything Must Change",
 "David Bowie & Mick Jagger - Dancing In The Street",
 "Heatwave - Gangsters Of The Groove",
+    "Whitney Houston - I Wanna Dance With Somebody (Who Loves Me)",
     "Queen - Scandal",
     "Rod Stewart - Lost In You",
+    "Bon Jovi - Runaway",
     "Prince - Partyman",
     "Kaoma - Lambada",
     "Erasure - It Doesn't Have To Be",
     "Tom Jones - It's Not Unusual",
 "Kraftwerk - Computer Love",
 "Billy Joel - Big Man On Mulberry Street",
+    "U2 - Where The Streets Have No Name",
     "Chris Rea - The Road To Hell",
     "Yazoo - Situation",
 "Genesis - No Reply At All",
@@ -10417,11 +10422,14 @@ var app = (function() {
 "Camouflage - The Great Commandment",
 "New Edition - Candy Girl",
 "Simple Minds - Glittering Prize",
+    "Afrika Bambaataa and The Soulsonic Force - Planet Rock",
+    "Madonna - Oh Father",
     "Eric B. & Rakim - Paid In Full",
+    "Rick Springfield - Love Somebody",
 "Spandau Ballet - Gold",
 "Weird Al Yankovic - Eat It",
 "The Cure - Plainsong",
-    "Iggy Pop - Real Wild Child (WIld One)",
+    "Iggy Pop - Real Wild Child (Wild One)",
 "Shakin' Stevens - This Ole House",
     "AC/DC - Heatseeker",
 "John Mellencamp - Lonely Ol' Night",
@@ -10444,7 +10452,14 @@ var app = (function() {
     "Martika - I Feel The Earth Move",
     "Lisa Stansfield - All Around The World",
     "Queen - The Miracle",
-    
+    "John Mellencamp - Cherry Bomb",
+    "Depeche Mode - Stripped",
+    "The Hooters - And We Danced",
+    "Whitney Houston - You Give Good Love",
+    "Grandmaster Flash & The Furious Five - The Message",
+    "Orchestral Manoeuvres In The Dark - Enola Gay",
+    "Survivor - Burning Heart",
+    "New Order - Bizarre Love Triangle",
 
     ]),
     On = {
@@ -15748,6 +15763,10 @@ var app = (function() {
             answer: "John Mellencamp - Paper In Fire",
           },
                                                                                                               {
+            url: "https://soundcloud.com/prince/lets-go-crazy-2015-paisley",
+            answer: "Prince - Let's Go Crazy",
+          },
+                                                                                                              {
             url: "https://soundcloud.com/texastheband/i-dont-want-a-lover-album",
             answer: "Texas - I Don't Want A Lover",
           },
@@ -15767,6 +15786,10 @@ var app = (function() {
             url: "https://soundcloud.com/guns-n-roses-official/nightrain",
             answer: "Guns 'N Roses - Nightrain",
           },
+                                                                                                                                      {
+            url: "https://soundcloud.com/madonna/into-the-groove",
+            answer: "Madonna - Into The Groove",
+          },
                                                                                                               {
             url: "https://soundcloud.com/paulyoung-sc/everything-must-change",
             answer: "Paul Young - Everything Must Change",
@@ -15780,12 +15803,20 @@ var app = (function() {
             answer: "Heatwave - Gangsters Of The Groove",
           },
                                                                                                               {
+            url: "https://soundcloud.com/whitneyhouston/i-wanna-dance-with-somebody-1",
+            answer: "Whitney Houston - I Wanna Dance With Somebody (Who Loves Me)",
+          },
+                                                                                                              {
             url: "https://soundcloud.com/queen-69312/scandal-remastered-2011",
             answer: "Queen - Scandal",
           },
                                                                                                               {
             url: "https://soundcloud.com/rodstewartofficial/lost-in-you",
             answer: "Rod Stewart - Lost In You",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/bonjovi/runaway-album-version",
+            answer: "Bon Jovi - Runaway",
           },
                                                                                                                         {
             url: "https://soundcloud.com/prince/partyman",
@@ -15810,6 +15841,10 @@ var app = (function() {
                                                                                                     {
             url: "https://soundcloud.com/billyjoel/big-man-on-mulberry-street",
             answer: "Billy Joel - Big Man On Mulberry Street",
+          },
+                                                                                                              {
+            url: "https://soundcloud.com/u2/where-the-streets-have-no",
+            answer: "U2 - Where The Streets Have No Name",
           },
                                                                                                               {
             url: "https://soundcloud.com/captainzaman/chris-rea-the-road-to-hell",
@@ -15840,8 +15875,20 @@ var app = (function() {
             answer: "Simple Minds - Glittering Prize",
           },
                                                                                                               {
+            url: "https://soundcloud.com/afrika-bambaataa/planet-rock-1",
+            answer: "Afrika Bambaataa and The Soulsonic Force - Planet Rock",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/madonna/oh-father",
+            answer: "Madonna - Oh Father",
+          },
+                                                                                                              {
             url: "https://soundcloud.com/eric-b-and-rakim/paid-in-full-album-version",
             answer: "Eric B. & Rakim - Paid In Full",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/rick-springfield-official/love-somebody",
+            answer: "Rick Springfield - Love Somebody",
           },
                                                                                                     {
             url: "https://soundcloud.com/spandau_ballet/gold",
@@ -15857,7 +15904,7 @@ var app = (function() {
           },
                                                                                                                                   {
             url: "https://soundcloud.com/iggypopofficial/real-wild-child-wild-one-1",
-            answer: "Iggy Pop - Real Wild Child (WIld One)",
+            answer: "Iggy Pop - Real Wild Child (Wild One)",
           },
                                                                                                                                   {
             url: "https://soundcloud.com/shakinstevens/this-ole-house-single-version",
@@ -15946,6 +15993,38 @@ var app = (function() {
                                                                                                                                                                                                                                       {
             url: "https://soundcloud.com/queen-69312/the-miracle-remastered-2011",
             answer: "Queen - The Miracle",
+          },
+                                                                                                                                                                                                                                                {
+            url: "https://soundcloud.com/john-mellencamp/cherry-bomb-album-version",
+            answer: "John Mellencamp - Cherry Bomb",
+          },
+                                                                                                                                                                                                                                                          {
+            url: "https://soundcloud.com/depeche_mode/stripped-edit",
+            answer: "Depeche Mode - Stripped",
+          },
+                                                                                                                                                                                                                                                                    {
+            url: "https://soundcloud.com/thehooters/and-we-danced-1",
+            answer: "The Hooters - And We Danced",
+          },
+                                                                                                                                                                                                                                                                              {
+            url: "https://soundcloud.com/whitneyhouston/you-give-good-love",
+            answer: "Whitney Houston - You Give Good Love",
+          },
+                                                                                                                                                                                                                                                                                        {
+            url: "https://soundcloud.com/grandmasterflashmusic/the-message-12-single-version",
+            answer: "Grandmaster Flash & The Furious Five - The Message",
+          },
+                                                                                                                                                                                                                                                                                                  {
+            url: "https://soundcloud.com/orchestral-manoeuvres-in-the-dark/enola-gay-1",
+            answer: "Orchestral Manoeuvres In The Dark - Enola Gay",
+          },
+                                                                                                                                                                                                                                                                                                            {
+            url: "https://soundcloud.com/survivor-official/burning-heart",
+            answer: "Survivor - Burning Heart",
+          },
+                                                                                                                                                                                                                                                                                                                      {
+            url: "https://soundcloud.com/neworderofficial/bizarre-love-triangle",
+            answer: "New Order - Bizarre Love Triangle",
           },
         
 

@@ -10395,6 +10395,7 @@ var app = (function() {
 "The Cure - Why Can't I Be You?",
 "John Mellencamp - Paper In Fire",
     "Prince - Let's Go Crazy",
+    "Real Life - Send Me An Angel",
     "Texas - I Don't Want A Lover",
 "Cambodia - Kim Wilde",
     "Dio - Rainbow In The Dark",
@@ -15765,6 +15766,10 @@ var app = (function() {
                                                                                                               {
             url: "https://soundcloud.com/prince/lets-go-crazy-2015-paisley",
             answer: "Prince - Let's Go Crazy",
+          },
+                                                                                                                        {
+            url: "https://soundcloud.com/reallife11607/send-me-an-angel",
+            answer: "Real Life - Send Me An Angel",
           },
                                                                                                               {
             url: "https://soundcloud.com/texastheband/i-dont-want-a-lover-album",

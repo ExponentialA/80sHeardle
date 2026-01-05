@@ -10407,9 +10407,11 @@ var app = (function() {
 "Heatwave - Gangsters Of The Groove",
     "Whitney Houston - I Wanna Dance With Somebody (Who Loves Me)",
     "Queen - Scandal",
+    "A-ha - The Living Daylights",
     "Rod Stewart - Lost In You",
     "Bon Jovi - Runaway",
     "Prince - Partyman",
+    "Men Without Hats - Pop Goes The World",
     "Kaoma - Lambada",
     "Erasure - It Doesn't Have To Be",
     "Tom Jones - It's Not Unusual",
@@ -15787,6 +15789,7 @@ var app = (function() {
             url: "https://soundcloud.com/neneh-cherry/kisses-on-the-wind",
             answer: "Neneh Cherry - Kisses On The Wind",
           },
+          
                                                                                                                             {
             url: "https://soundcloud.com/guns-n-roses-official/nightrain",
             answer: "Guns 'N Roses - Nightrain",
@@ -15815,6 +15818,10 @@ var app = (function() {
             url: "https://soundcloud.com/queen-69312/scandal-remastered-2011",
             answer: "Queen - Scandal",
           },
+                                                                                                                        {
+            url: "https://soundcloud.com/a-ha/the-living-daylights",
+            answer: "A-ha - The Living Daylights",
+          },
                                                                                                               {
             url: "https://soundcloud.com/rodstewartofficial/lost-in-you",
             answer: "Rod Stewart - Lost In You",
@@ -15826,6 +15833,10 @@ var app = (function() {
                                                                                                                         {
             url: "https://soundcloud.com/prince/partyman",
             answer: "Prince - Partyman",
+          },
+                                                                                                                                  {
+            url: "https://soundcloud.com/men-without-hats/pop-goes-the-world,
+            answer: "Men Without Hats - Pop Goes The World",
           },
                                                                                                                                   {
             url: "https://soundcloud.com/arabmusician/kaoma-lambada",

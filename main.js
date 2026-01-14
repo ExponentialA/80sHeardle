@@ -10463,6 +10463,7 @@ var app = (function() {
     "Orchestral Manoeuvres In The Dark - Enola Gay",
     "Survivor - Burning Heart",
     "New Order - Bizarre Love Triangle",
+    "Kool & The Gang - Misled",
 
     ]),
     On = {
@@ -16041,6 +16042,10 @@ var app = (function() {
                                                                                                                                                                                                                                                                                                                       {
             url: "https://soundcloud.com/neworderofficial/bizarre-love-triangle",
             answer: "New Order - Bizarre Love Triangle",
+          },
+                                                                                                                                                                                                                                                                                                                                {
+            url: "https://soundcloud.com/koolthegang/misled-single-version-1",
+            answer: "Kool & The Gang - Misled",
           },
         
 

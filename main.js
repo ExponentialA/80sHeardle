@@ -9072,7 +9072,15 @@ var app = (function() {
   });
   const Cn = ue([
 
-      "Madonna - Like a Prayer",
+        "Depeche Mode - Stripped",
+    "The Hooters - And We Danced",
+    "Whitney Houston - You Give Good Love",
+    "Grandmaster Flash & The Furious Five - The Message",
+    "Orchestral Manoeuvres In The Dark - Enola Gay",
+    "Survivor - Burning Heart",
+    "New Order - Bizarre Love Triangle",
+    "Kool & The Gang - Misled", 
+    "Madonna - Like a Prayer",
     "Terence Trent D'Arby - Wishing Well",
 "Milli Vanilli - Baby Don't Forget My Number",
 "Roxette - The Look", 
@@ -10469,7 +10477,39 @@ var app = (function() {
     On = {
       subscribe: ue(
         [          
-                                                                                 {
+                                                                                                                                                                                                                                                       {
+            url: "https://soundcloud.com/depeche_mode/stripped-edit",
+            answer: "Depeche Mode - Stripped",
+          },
+                                                                                                                                                                                                                                                                    {
+            url: "https://soundcloud.com/thehooters/and-we-danced-1",
+            answer: "The Hooters - And We Danced",
+          },
+                                                                                                                                                                                                                                                                              {
+            url: "https://soundcloud.com/whitneyhouston/you-give-good-love",
+            answer: "Whitney Houston - You Give Good Love",
+          },
+                                                                                                                                                                                                                                                                                        {
+            url: "https://soundcloud.com/grandmasterflashmusic/the-message-12-single-version",
+            answer: "Grandmaster Flash & The Furious Five - The Message",
+          },
+                                                                                                                                                                                                                                                                                                  {
+            url: "https://soundcloud.com/orchestral-manoeuvres-in-the-dark/enola-gay-1",
+            answer: "Orchestral Manoeuvres In The Dark - Enola Gay",
+          },
+                                                                                                                                                                                                                                                                                                            {
+            url: "https://soundcloud.com/survivor-official/burning-heart",
+            answer: "Survivor - Burning Heart",
+          },
+                                                                                                                                                                                                                                                                                                                      {
+            url: "https://soundcloud.com/neworderofficial/bizarre-love-triangle",
+            answer: "New Order - Bizarre Love Triangle",
+          },
+                                                                                                                                                                                                                                                                                                                                {
+            url: "https://soundcloud.com/koolthegang/misled-single-version-1",
+            answer: "Kool & The Gang - Misled",
+          },                                                                       
+          {
             url: "https://soundcloud.com/madonna/like-a-prayer-album-version",
             answer: "Madonna - Like A Prayer",
           },

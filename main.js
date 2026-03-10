@@ -4083,7 +4083,7 @@ var app = (function() {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-05-19",
+      startDate: "2026-03-10",
     },
     Jt = ["Incoming poser alert!", "Radical!", "Clutch!", "Totally Bitchin'!", "Righteous!", "Gnarly!", "Radical!"];
 

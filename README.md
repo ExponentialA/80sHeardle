@@ -4,7 +4,7 @@ _[80s Heardle](https://like-its-the-80s-heardle.glitch.me/) (or 80sHeardle, if y
 
 Updated as of May 15, 2022
 
-This is a spin-off of the original [Heardle](https://www.heardle.app/) but for 80s songs. Each song is randomly chosen from his discography, including features. I do not own any rights to the songs used in this game. All copyright goes to whoever, and other relevant parties.
+This is a spin-off of the original [Heardle](https://www.heardle.app/) but for 80s songs. Each song is randomly chosen. I do not own any rights to the songs used in this game. All copyright goes to whoever, and other relevant parties.
 
 FYI: I am not a web developer. If you find a bug or have any questions, DM me on Twitter ([@anujadhiya](https://twitter.com/anujadhiya)).
 

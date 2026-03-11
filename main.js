@@ -9080,7 +9080,7 @@ var app = (function() {
     "Survivor - Burning Heart",
     "New Order - Bizarre Love Triangle",
     "Kool & The Gang - Misled", 
-    "Madonna - Like a Prayer",
+    "Madonna - Like A Prayer",
     "Terence Trent D'Arby - Wishing Well",
 "Milli Vanilli - Baby Don't Forget My Number",
 "Roxette - The Look", 

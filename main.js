@@ -10574,10 +10574,6 @@ var app = (function() {
             answer: "Boy Meets Girl - Waiting For A Star To Fall",
           },
           {
-            url: "https://soundcloud.com/louise-westie/waiting-for-a-star-to-fall",
-            answer: "Boy Meets Girl - Waiting For A Star To Fall",
-          },
-          {
             url: "https://soundcloud.com/you-music-tu-music-1/she-drives-me-crazy-you-music",
             answer: "Fine Young Cannibals - She Drives Me Crazy",
           },

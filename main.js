@@ -10598,7 +10598,7 @@ var app = (function() {
             answer: "Irene Cara - ...What A Feeling",
           },
           {
-            url: "https://soundcloud.com/desibelios/buffalo-stance",
+            url: "https://soundcloud.com/neneh-cherry/buffalo-stance-1",
             answer: "Neneh Cherry - Buffalo Stance",
           },
           {

@@ -10634,7 +10634,7 @@ var app = (function() {
             answer: "Great White - Once Bitten, Twice Shy",
           },
           {
-            url: "https://soundcloud.com/soft-cell-official/tainted-love-2",
+            url: "https://soundcloud.com/cleopatra-recs/soft-cell-tainted-love",
             answer: "Soft Cell - Tainted Love",
           },
                    {

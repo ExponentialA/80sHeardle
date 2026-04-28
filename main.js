@@ -10702,7 +10702,7 @@ var app = (function() {
             answer: "George Harrison - Got My Mind Set On You",
           },
           {
-            url: "https://soundcloud.com/rick-astley-official/never-gonna-give-you-up-4",
+            url: "https://soundcloud.com/rick-astley-official/never-gonna-give-you-up-2022",
             answer: "Rick Astley - Never Gonna Give You Up",
           },
           {

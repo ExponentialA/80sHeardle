@@ -10744,8 +10744,8 @@ y.getCurrentSound(function(e) {
             answer: "Eddy Grant - Jo'Anna Give Me Hope",
           },
           {
-            url: "https://soundcloud.com/aerosmith/angel",
-            answer: "Aerosmith - Angel",
+            url: "https://soundcloud.com/tobias-vv-1/the-proclaimers-im-gonna-be-500-miles",
+            answer: "The Proclaimers - I'm Gonna Be (500 Miles)",
           },
           {
             url: "https://soundcloud.com/tobias-vv-1/the-proclaimers-im-gonna-be-500-miles",

@@ -2434,9 +2434,11 @@ y.getCurrentSound(function(e) {
         f,
         m,
         p,
-        () => {
-          y.seekTo(0), y.play();
-        },
+() => {
+  console.log("play/restart clicked", y);
+  y.seekTo(0);
+  y.play();
+},
         M,
         o,
         a,
@@ -2461,9 +2463,11 @@ y.getCurrentSound(function(e) {
         () => {
           y.toggle();
         },
-        () => {
-          y.seekTo(0), y.play();
-        },
+() => {
+  console.log("play/restart clicked", y);
+  y.seekTo(0);
+  y.play();
+},
         () => {
           window.location.reload();
         },

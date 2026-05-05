@@ -2348,12 +2348,20 @@ var app = (function() {
       (y = SC.Widget("soundcloud" + h.id)).bind(
         SC.Widget.Events.READY,
         function() {
-          y.getCurrentSound(function(e) {
-              "BLOCK" === e.policy && n(9, (g = !0)),
-                c("updateSong", {
-                  currentSong: e,
-                });
-            }),
+y.getCurrentSound(function(e) {
+  if (!e) {
+    n(9, (g = !0));
+    return;
+  }
+
+  if (e.policy === "BLOCK") {
+    n(9, (g = !0));
+  }
+
+  c("updateSong", {
+    currentSong: e,
+  });
+});
             y.bind(SC.Widget.Events.PAUSE, function() {
               $(!1);
             }),

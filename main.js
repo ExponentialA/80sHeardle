@@ -1760,9 +1760,11 @@ var app = (function() {
           },
         },
       })),
-      D.$on("click", function() {
-        s(e[18] ? e[6] : e[5]) && (e[18] ? e[6] : e[5]).apply(this, arguments);
-      }), {
+D.$on("click", function() {
+  console.log("PLAY BUTTON WRAPPER CLICKED", e[18] ? "pause" : "play");
+
+  s(e[18] ? e[6] : e[5]) && (e[18] ? e[6] : e[5]).apply(this, arguments);
+}), {
         c() {
           N && N.c(),
             (t = x()),

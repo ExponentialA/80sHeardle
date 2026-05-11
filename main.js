@@ -2258,7 +2258,7 @@ D.$on("click", function() {
             (u = w("div")),
             l(t.src, (n = "https://w.soundcloud.com/player/api.js")) ||
             M(t, "src", "https://w.soundcloud.com/player/api.js"),
-            M(a, "class", "hidden");
+            M(a, "class", "soundcloud-host");
         },
         m(n, i) {
           p(je.head, t),
@@ -2395,10 +2395,14 @@ y.getCurrentSound(function(e) {
       const e = document.createElement("iframe");
       (e.name = h.id),
       (e.id = "soundcloud" + h.id),
-      (e.allow = "autoplay"),
-      (e.height = 0),
+      (e.allow = "autoplay; encrypted-media"),
+      (e.width = "100%"),
+      (e.height = 166),
+      (e.style.border = "0"),
       (e.src =
-        "https://w.soundcloud.com/player/?url=" + h.url + "&cache=" + h.id),
+      "https://w.soundcloud.com/player/?url=" + encodeURIComponent(h.url) +
+      "&cache=" + h.id +
+      "&auto_play=false&show_artwork=false&visual=false"),
       D.appendChild(e),
         (_ = !0),
         k &&

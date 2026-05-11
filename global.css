@@ -54,3 +54,16 @@ button:focus {
 button:not(:disabled):active {
     background-color: #dddddd;
 }
+
+/* Keep the SoundCloud iframe rendered.
+   SoundCloud/browser playback can fail when the controlled iframe is display:none or 0px tall. */
+.soundcloud-host {
+  position: fixed;
+  left: -10000px;
+  top: 0;
+  width: 300px;
+  height: 166px;
+  overflow: hidden;
+  opacity: 0.01;
+  pointer-events: none;
+}

@@ -2365,7 +2365,7 @@ D.$on("click", function() {
         }, Math.max(1e3, C()) + 250);
     }
 
-    function P() {
+    function zt_setVolume() {
       try {
         y && y.setVolume && y.setVolume(100);
       } catch (e) {}
@@ -2375,7 +2375,7 @@ D.$on("click", function() {
       y || T();
       if (!y) return;
       try {
-        P(), e && y.seekTo && y.seekTo(0), y.play && y.play();
+        zt_setVolume(), e && y.seekTo && y.seekTo(0), y.play && y.play();
       } catch (e) {}
     }
 
@@ -2386,7 +2386,7 @@ D.$on("click", function() {
       j = !0,
         (y = SC.Widget(e)),
         y.bind(SC.Widget.Events.READY, function() {
-          clearTimeout(E), n(13, (S = !1)), P(),
+          clearTimeout(E), n(13, (S = !1)), zt_setVolume(),
             y.getCurrentSound(function(e) {
               if (!e) {
                 n(9, (g = !0));
@@ -2414,7 +2414,7 @@ D.$on("click", function() {
                 name: "startGame",
               }),
               (b = !0)),
-            P(),
+            zt_setVolume(),
             $(!0),
             O(),
             n(12, (x = !0));

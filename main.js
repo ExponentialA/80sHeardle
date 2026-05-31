@@ -10871,7 +10871,7 @@ y.getCurrentSound(function(e) {
             answer: "Bananarama - I Heard A Rumour",
           },
           {
-            url: "https://soundcloud.com/user943492946/madonna-la-isla-bonita",
+            url: "https://soundcloud.com/madonna/la-isla-bonita",
             answer: "Madonna - La Isla Bonita",
           },
           {

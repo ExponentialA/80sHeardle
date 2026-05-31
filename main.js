@@ -2344,23 +2344,45 @@ D.$on("click", function() {
         }), "*");
       } catch (e) {}
     }
+    function Rn() {
+      return 1 == s ? p.isPrime ? u || f.attemptInterval : d * f.attemptInterval : m || 3e4;
+    }
+
+    function Fn() {
+      clearTimeout(R), R = setTimeout(function() {
+        M();
+      }, Math.max(1e3, Rn()) + 150);
+    }
+
+    function Gn(e) {
+      const t = D && D.querySelector("iframe");
+      if (!t) return;
+      try {
+        e && t.src.indexOf("auto_play=true") < 0 && (j = !1, B = !1, t.src = t.src.replace("auto_play=false", "auto_play=true") + "&play_retry=" + Date.now());
+      } catch (e) {}
+    }
+
     function Pn(e) {
       y || T();
+      e && O("seekTo", 0);
       try {
         e && y && y.seekTo && y.seekTo(0);
       } catch (e) {}
-      try {
-        y && y.play && y.play();
-      } catch (e) {}
-      e && O("seekTo", 0),
-        O("play"),
-        setTimeout(function() {
-          e && O("seekTo", 0), O("play");
-        }, 350),
+      for (let t = 0; t < 6; t += 1) setTimeout(function() {
+        try {
+          y || T(), e && y && y.seekTo && y.seekTo(0), y && y.play && y.play();
+        } catch (e) {}
+        e && O("seekTo", 0), O("play");
+      }, 250 * t);
+      setTimeout(function() {
+        Gn(!0);
+      }, 900),
         $(!0),
+        Fn(),
         n(12, (x = !0));
     }
     const M = () => {
+      clearTimeout(R);
       try {
         y && y.seekTo && y.seekTo(0), y && y.pause && y.pause();
       } catch (e) {}
@@ -2372,7 +2394,7 @@ D.$on("click", function() {
         musicIsPlaying: e,
       });
     }
-    let D, E, j = !1, B = !1;
+    let D, E, R, j = !1, B = !1;
 
     function T() {
       if (j || !D || !window.SC || !SC.Widget) return;
@@ -2466,6 +2488,7 @@ D.$on("click", function() {
       "&cache=" + h.id +
       "&auto_play=false&show_artwork=false&visual=false"),
       e.addEventListener("load", function() {
+        j = !1;
         setTimeout(function() {
           window.SC && SC.Widget && T();
         }, 500);

@@ -2261,15 +2261,15 @@ D.$on("click", function() {
             M(a, "class", "soundcloud-host");
         },
         m(n, i) {
-          p(je.head, t),
+          d || ((h = S(t, "load", e[19])), (d = !0)),
+            p(je.head, t),
             g(n, r, i),
             m[s].m(n, i),
             g(n, o, i),
             g(n, a, i),
             p(a, u),
             e[23](u),
-            (c = !0),
-            d || ((h = S(t, "load", e[19])), (d = !0));
+            (c = !0);
         },
         p(e, t) {
           let n = s;
@@ -2344,57 +2344,85 @@ D.$on("click", function() {
         musicIsPlaying: e,
       });
     }
-    let D, readyTimeout;
+    let D, E, j = !1, B = !1;
 
     function T() {
-      if (!D || !window.SC || !SC.Widget) return;
-      const widgetFrame = D.querySelector("iframe");
-      if (!widgetFrame) return;
-      (y = SC.Widget(widgetFrame)).bind(
-        SC.Widget.Events.READY,
-        function() {
-clearTimeout(readyTimeout);
-n(13, (S = !1));
-y.getCurrentSound(function(e) {
-  if (!e) {
-    n(9, (g = !0));
-    return;
-  }
+      if (j || !D || !window.SC || !SC.Widget) return;
+      const e = D.querySelector("iframe");
+      if (!e) return;
+      j = !0;
+      y = SC.Widget(e);
 
-  if (e.policy === "BLOCK") {
-    n(9, (g = !0));
-  }
-
-  c("updateSong", {
-    currentSong: e,
-  });
-});
-            y.bind(SC.Widget.Events.PAUSE, function() {
-              $(!1);
-            }),
-            y.bind(SC.Widget.Events.PLAY, function() {
-              b ||
-                (pe("startGame", {
-                    name: "startGame",
-                  }),
-                  pe("startGame#" + h.id, {
-                    name: "startGame",
-                  }),
-                  (b = !0)),
-                $(!0),
-                n(12, (x = !0));
-            }),
-            y.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
-              n(11, (w = e.currentPosition)),
-                1 == s ?
-                p.isPrime ?
-                (n(10, (v = (w / u) * 100)), w > u && M()) :
-                (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
-                  w > d * f.attemptInterval && M()) :
-                (n(10, (v = (w / m) * 100)), w > m && M());
-            });
+      function t(e) {
+        if (B) return;
+        B = !0;
+        clearTimeout(E);
+        n(13, (S = !1));
+        if (e) {
+          c("updateSong", {
+            currentSong: {
+              artwork_url: "",
+              duration: m || 3e4,
+              genre: "",
+              release_date: "",
+            },
+          });
+          return;
         }
-      );
+        y.getCurrentSound(function(e) {
+          if (!e) {
+            c("updateSong", {
+              currentSong: {
+                artwork_url: "",
+                duration: m || 3e4,
+                genre: "",
+                release_date: "",
+              },
+            });
+            return;
+          }
+
+          if (e.policy === "BLOCK") {
+            n(9, (g = !0));
+          }
+
+          c("updateSong", {
+            currentSong: e,
+          });
+        });
+      }
+
+      y.bind(SC.Widget.Events.READY, function() {
+        t(!1);
+      });
+      y.bind(SC.Widget.Events.PAUSE, function() {
+        $(!1);
+      });
+      y.bind(SC.Widget.Events.PLAY, function() {
+        b ||
+          (pe("startGame", {
+              name: "startGame",
+            }),
+            pe("startGame#" + h.id, {
+              name: "startGame",
+            }),
+            (b = !0)),
+          $(!0),
+          n(12, (x = !0));
+      });
+      y.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
+        n(11, (w = e.currentPosition)),
+          1 == s ?
+          p.isPrime ?
+          (n(10, (v = (w / u) * 100)), w > u && M()) :
+          (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
+            w > d * f.attemptInterval && M()) :
+          (n(10, (v = (w / (m || 3e4)) * 100)), w > (m || 3e4) && M());
+      });
+      clearTimeout(E);
+      E = setTimeout(function() {
+        t(!0);
+      }, 12e3);
     }
     P(() => {
       const e = document.createElement("iframe");
@@ -2408,14 +2436,19 @@ y.getCurrentSound(function(e) {
       "https://w.soundcloud.com/player/?url=" + encodeURIComponent(h.url) +
       "&cache=" + h.id +
       "&auto_play=false&show_artwork=false&visual=false"),
+      e.addEventListener("load", function() {
+        setTimeout(function() {
+          window.SC && SC.Widget && T();
+        }, 500);
+      }),
       D.appendChild(e),
         (_ = !0),
         window.SC && SC.Widget && ((k = !0), T()),
         k &&
-        (clearTimeout(readyTimeout),
-          (readyTimeout = setTimeout(() => {
+        (clearTimeout(E),
+          (E = setTimeout(function() {
             !p.playerIsReady && n(13, (S = !0));
-          }, 2e4)),
+          }, 12e3)),
           T());
     });
     return (
@@ -2448,7 +2481,7 @@ y.getCurrentSound(function(e) {
         m,
         p,
 () => {
-  console.log("play/restart clicked", y);
+  if (!y) return;
   y.seekTo(0);
   y.play();
 },
@@ -2468,17 +2501,17 @@ y.getCurrentSound(function(e) {
         function() {
           (k = !0),
           _ &&
-            (clearTimeout(readyTimeout),
-              (readyTimeout = setTimeout(() => {
+            (clearTimeout(E),
+              (E = setTimeout(function() {
                 !p.playerIsReady && n(13, (S = !0));
-              }, 2e4)),
+              }, 12e3)),
               T());
         },
         () => {
-          y.toggle();
+          y && y.toggle();
         },
 () => {
-  console.log("play/restart clicked", y);
+  if (!y) return;
   y.seekTo(0);
   y.play();
 },

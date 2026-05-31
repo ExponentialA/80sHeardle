@@ -10887,7 +10887,7 @@ y.getCurrentSound(function(e) {
             answer: "Bryan Adams - Heat Of The Night",
           },
           {
-            url: "https://soundcloud.com/fridaponce/dont-get-me-wrong-the",
+            url: "https://soundcloud.com/the-pretenders/dont-get-me-wrong-1",
             answer: "The Pretenders - Don't Get Me Wrong",
           },
           {

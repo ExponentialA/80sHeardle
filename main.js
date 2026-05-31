@@ -2261,15 +2261,15 @@ D.$on("click", function() {
             M(a, "class", "soundcloud-host");
         },
         m(n, i) {
-          d || ((h = S(t, "load", e[19])), (d = !0)),
-            p(je.head, t),
+          p(je.head, t),
             g(n, r, i),
             m[s].m(n, i),
             g(n, o, i),
             g(n, a, i),
             p(a, u),
             e[23](u),
-            (c = !0);
+            (c = !0),
+            d || ((h = S(t, "load", e[19])), (d = !0));
         },
         p(e, t) {
           let n = s;
@@ -2336,11 +2336,7 @@ D.$on("click", function() {
       b = !1,
       S = !1;
     const M = () => {
-      clearTimeout(R);
-      try {
-        y && y.seekTo && y.seekTo(0), y && y.pause && y.pause();
-      } catch (e) {}
-      $(!1);
+      y.seekTo(0), y.pause();
     };
 
     function $(e) {
@@ -2348,86 +2344,52 @@ D.$on("click", function() {
         musicIsPlaying: e,
       });
     }
-    let D, E, R, j = !1;
-
-    function C() {
-      return 1 == s ?
-        p.isPrime ?
-        u || f.attemptInterval :
-        d * f.attemptInterval :
-        m || 3e4;
-    }
-
-    function O() {
-      clearTimeout(R),
-        R = setTimeout(() => {
-          M();
-        }, Math.max(1e3, C()) + 250);
-    }
-
-    function zt_setVolume() {
-      try {
-        y && y.setVolume && y.setVolume(100);
-      } catch (e) {}
-    }
-
-    function A(e) {
-      y || T();
-      if (!y) return;
-      try {
-        zt_setVolume(), e && y.seekTo && y.seekTo(0), y.play && y.play();
-      } catch (e) {}
-    }
+    let D;
 
     function T() {
-      if (j || !D || !window.SC || !SC.Widget) return;
-      const e = D.querySelector("iframe");
-      if (!e) return;
-      j = !0,
-        (y = SC.Widget(e)),
-        y.bind(SC.Widget.Events.READY, function() {
-          clearTimeout(E), n(13, (S = !1)), zt_setVolume(),
-            y.getCurrentSound(function(e) {
-              if (!e) {
-                n(9, (g = !0));
-                return;
-              }
+      (y = SC.Widget("soundcloud" + h.id)).bind(
+        SC.Widget.Events.READY,
+        function() {
+y.getCurrentSound(function(e) {
+  if (!e) {
+    n(9, (g = !0));
+    return;
+  }
 
-              if (e.policy === "BLOCK") {
-                n(9, (g = !0));
-              }
+  if (e.policy === "BLOCK") {
+    n(9, (g = !0));
+  }
 
-              c("updateSong", {
-                currentSong: e,
-              });
+  c("updateSong", {
+    currentSong: e,
+  });
+});
+            y.bind(SC.Widget.Events.PAUSE, function() {
+              $(!1);
+            }),
+            y.bind(SC.Widget.Events.PLAY, function() {
+              b ||
+                (pe("startGame", {
+                    name: "startGame",
+                  }),
+                  pe("startGame#" + h.id, {
+                    name: "startGame",
+                  }),
+                  (b = !0)),
+                $(!0),
+                n(12, (x = !0));
+            }),
+            y.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
+              n(11, (w = e.currentPosition)),
+                1 == s ?
+                p.isPrime ?
+                (n(10, (v = (w / u) * 100)), w > u && M()) :
+                (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
+                  w > d * f.attemptInterval && M()) :
+                (n(10, (v = (w / m) * 100)), w > m && M());
             });
-        }),
-        y.bind(SC.Widget.Events.PAUSE, function() {
-          clearTimeout(R), $(!1);
-        }),
-        y.bind(SC.Widget.Events.PLAY, function() {
-          b ||
-            (pe("startGame", {
-                name: "startGame",
-              }),
-              pe("startGame#" + h.id, {
-                name: "startGame",
-              }),
-              (b = !0)),
-            zt_setVolume(),
-            $(!0),
-            O(),
-            n(12, (x = !0));
-        }),
-        y.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
-          n(11, (w = e.currentPosition)),
-            1 == s ?
-            p.isPrime ?
-            (n(10, (v = (w / u) * 100)), w > u && M()) :
-            (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
-              w > d * f.attemptInterval && M()) :
-            (n(10, (v = (w / (m || 3e4)) * 100)), w > (m || 3e4) && M());
-        });
+        }
+      );
     }
     P(() => {
       const e = document.createElement("iframe");
@@ -2440,21 +2402,13 @@ D.$on("click", function() {
       (e.src =
       "https://w.soundcloud.com/player/?url=" + encodeURIComponent(h.url) +
       "&cache=" + h.id +
-      "&auto_play=false&show_artwork=false&visual=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&single_active=false"),
-      e.addEventListener("load", function() {
-        j = !1,
-          setTimeout(() => {
-            window.SC && SC.Widget && T();
-          }, 300);
-      }),
+      "&auto_play=false&show_artwork=false&visual=false"),
       D.appendChild(e),
         (_ = !0),
-        window.SC && SC.Widget && ((k = !0), T()),
         k &&
-        (clearTimeout(E),
-          (E = setTimeout(() => {
-            !p.playerIsReady && n(13, (S = !0));
-          }, 2e4)),
+        (setTimeout(() => {
+            n(13, (S = !0));
+          }, 6e3),
           T());
     });
     return (
@@ -2487,8 +2441,10 @@ D.$on("click", function() {
         m,
         p,
 () => {
-          A(!0);
-        },
+  console.log("play/restart clicked", y);
+  y.seekTo(0);
+  y.play();
+},
         M,
         o,
         a,
@@ -2505,18 +2461,19 @@ D.$on("click", function() {
         function() {
           (k = !0),
           _ &&
-            (clearTimeout(E),
-              (E = setTimeout(() => {
-                !p.playerIsReady && n(13, (S = !0));
-              }, 2e4)),
+            (setTimeout(() => {
+                n(13, (S = !0));
+              }, 6e3),
               T());
         },
         () => {
-          r ? M() : A(!1);
+          y.toggle();
         },
 () => {
-          A(!0);
-        },
+  console.log("play/restart clicked", y);
+  y.seekTo(0);
+  y.play();
+},
         () => {
           window.location.reload();
         },

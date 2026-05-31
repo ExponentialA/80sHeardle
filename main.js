@@ -10847,7 +10847,7 @@ y.getCurrentSound(function(e) {
             answer: "Martika - Toy Soldiers",
           },
           {
-            url: "https://soundcloud.com/black-sand-1/a-town-called-malice-black-sa",
+            url: "https://soundcloud.com/user-7234605/the-jam-a-town-called-malice",
             answer: "The Jam - A Town Called Malice",
           },
           {

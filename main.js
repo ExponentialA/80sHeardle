@@ -1761,6 +1761,8 @@ var app = (function() {
         },
       })),
 D.$on("click", function() {
+  console.log("PLAY BUTTON WRAPPER CLICKED", e[18] ? "pause" : "play");
+
   s(e[18] ? e[6] : e[5]) && (e[18] ? e[6] : e[5]).apply(this, arguments);
 }), {
         c() {
@@ -2333,60 +2335,12 @@ D.$on("click", function() {
       x = !1,
       b = !1,
       S = !1;
-    function O(e, t) {
-      try {
-        const n = D && D.querySelector("iframe");
-        n && n.contentWindow && n.contentWindow.postMessage(JSON.stringify(void 0 === t ? {
-          method: e
-        } : {
-          method: e,
-          value: t
-        }), "*");
-      } catch (e) {}
-    }
-    function Rn() {
-      return 1 == s ? p.isPrime ? u || f.attemptInterval : d * f.attemptInterval : m || 3e4;
-    }
-
-    function Fn() {
-      clearTimeout(R), R = setTimeout(function() {
-        M();
-      }, Math.max(1e3, Rn()) + 150);
-    }
-
-    function Gn(e) {
-      const t = D && D.querySelector("iframe");
-      if (!t) return;
-      try {
-        e && t.src.indexOf("auto_play=true") < 0 && (j = !1, B = !1, t.src = t.src.replace("auto_play=false", "auto_play=true") + "&play_retry=" + Date.now());
-      } catch (e) {}
-    }
-
-    function Pn(e) {
-      y || T();
-      e && O("seekTo", 0);
-      try {
-        e && y && y.seekTo && y.seekTo(0);
-      } catch (e) {}
-      for (let t = 0; t < 6; t += 1) setTimeout(function() {
-        try {
-          y || T(), e && y && y.seekTo && y.seekTo(0), y && y.play && y.play();
-        } catch (e) {}
-        e && O("seekTo", 0), O("play");
-      }, 250 * t);
-      setTimeout(function() {
-        Gn(!0);
-      }, 900),
-        $(!0),
-        Fn(),
-        n(12, (x = !0));
-    }
     const M = () => {
       clearTimeout(R);
       try {
         y && y.seekTo && y.seekTo(0), y && y.pause && y.pause();
       } catch (e) {}
-      O("seekTo", 0), O("pause"), $(!1);
+      $(!1);
     };
 
     function $(e) {
@@ -2394,86 +2348,86 @@ D.$on("click", function() {
         musicIsPlaying: e,
       });
     }
-    let D, E, R, j = !1, B = !1;
+    let D, E, R, j = !1;
+
+    function C() {
+      return 1 == s ?
+        p.isPrime ?
+        u || f.attemptInterval :
+        d * f.attemptInterval :
+        m || 3e4;
+    }
+
+    function O() {
+      clearTimeout(R),
+        R = setTimeout(() => {
+          M();
+        }, Math.max(1e3, C()) + 250);
+    }
+
+    function P() {
+      try {
+        y && y.setVolume && y.setVolume(100);
+      } catch (e) {}
+    }
+
+    function A(e) {
+      y || T();
+      if (!y) return;
+      try {
+        P(), e && y.seekTo && y.seekTo(0), y.play && y.play();
+      } catch (e) {}
+    }
 
     function T() {
       if (j || !D || !window.SC || !SC.Widget) return;
       const e = D.querySelector("iframe");
       if (!e) return;
-      j = !0;
-      y = SC.Widget(e);
-      try { window.soundcloudWidget = y; } catch (e) {}
+      j = !0,
+        (y = SC.Widget(e)),
+        y.bind(SC.Widget.Events.READY, function() {
+          clearTimeout(E), n(13, (S = !1)), P(),
+            y.getCurrentSound(function(e) {
+              if (!e) {
+                n(9, (g = !0));
+                return;
+              }
 
-      function t(e) {
-        if (B) return;
-        B = !0;
-        clearTimeout(E);
-        n(13, (S = !1));
-        if (e) {
-          c("updateSong", {
-            currentSong: {
-              artwork_url: "",
-              duration: m || 3e4,
-              genre: "",
-              release_date: "",
-            },
-          });
-          return;
-        }
-        y.getCurrentSound(function(e) {
-          if (!e) {
-            c("updateSong", {
-              currentSong: {
-                artwork_url: "",
-                duration: m || 3e4,
-                genre: "",
-                release_date: "",
-              },
+              if (e.policy === "BLOCK") {
+                n(9, (g = !0));
+              }
+
+              c("updateSong", {
+                currentSong: e,
+              });
             });
-            return;
-          }
-
-          if (e.policy === "BLOCK") {
-            n(9, (g = !0));
-          }
-
-          c("updateSong", {
-            currentSong: e,
-          });
+        }),
+        y.bind(SC.Widget.Events.PAUSE, function() {
+          clearTimeout(R), $(!1);
+        }),
+        y.bind(SC.Widget.Events.PLAY, function() {
+          b ||
+            (pe("startGame", {
+                name: "startGame",
+              }),
+              pe("startGame#" + h.id, {
+                name: "startGame",
+              }),
+              (b = !0)),
+            P(),
+            $(!0),
+            O(),
+            n(12, (x = !0));
+        }),
+        y.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
+          n(11, (w = e.currentPosition)),
+            1 == s ?
+            p.isPrime ?
+            (n(10, (v = (w / u) * 100)), w > u && M()) :
+            (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
+              w > d * f.attemptInterval && M()) :
+            (n(10, (v = (w / (m || 3e4)) * 100)), w > (m || 3e4) && M());
         });
-      }
-
-      y.bind(SC.Widget.Events.READY, function() {
-        t(!1);
-      });
-      y.bind(SC.Widget.Events.PAUSE, function() {
-        $(!1);
-      });
-      y.bind(SC.Widget.Events.PLAY, function() {
-        b ||
-          (pe("startGame", {
-              name: "startGame",
-            }),
-            pe("startGame#" + h.id, {
-              name: "startGame",
-            }),
-            (b = !0)),
-          $(!0),
-          n(12, (x = !0));
-      });
-      y.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
-        n(11, (w = e.currentPosition)),
-          1 == s ?
-          p.isPrime ?
-          (n(10, (v = (w / u) * 100)), w > u && M()) :
-          (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
-            w > d * f.attemptInterval && M()) :
-          (n(10, (v = (w / (m || 3e4)) * 100)), w > (m || 3e4) && M());
-      });
-      clearTimeout(E);
-      E = setTimeout(function() {
-        t(!0);
-      }, 12e3);
     }
     P(() => {
       const e = document.createElement("iframe");
@@ -2486,21 +2440,21 @@ D.$on("click", function() {
       (e.src =
       "https://w.soundcloud.com/player/?url=" + encodeURIComponent(h.url) +
       "&cache=" + h.id +
-      "&auto_play=false&show_artwork=false&visual=false"),
+      "&auto_play=false&show_artwork=false&visual=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&single_active=false"),
       e.addEventListener("load", function() {
-        j = !1;
-        setTimeout(function() {
-          window.SC && SC.Widget && T();
-        }, 500);
+        j = !1,
+          setTimeout(() => {
+            window.SC && SC.Widget && T();
+          }, 300);
       }),
       D.appendChild(e),
         (_ = !0),
         window.SC && SC.Widget && ((k = !0), T()),
         k &&
         (clearTimeout(E),
-          (E = setTimeout(function() {
+          (E = setTimeout(() => {
             !p.playerIsReady && n(13, (S = !0));
-          }, 12e3)),
+          }, 2e4)),
           T());
     });
     return (
@@ -2533,8 +2487,8 @@ D.$on("click", function() {
         m,
         p,
 () => {
-  Pn(!0);
-},
+          A(!0);
+        },
         M,
         o,
         a,
@@ -2552,17 +2506,17 @@ D.$on("click", function() {
           (k = !0),
           _ &&
             (clearTimeout(E),
-              (E = setTimeout(function() {
+              (E = setTimeout(() => {
                 !p.playerIsReady && n(13, (S = !0));
-              }, 12e3)),
+              }, 2e4)),
               T());
         },
         () => {
-          r ? M() : Pn(!1);
+          r ? M() : A(!1);
         },
 () => {
-  Pn(!0);
-},
+          A(!0);
+        },
         () => {
           window.location.reload();
         },

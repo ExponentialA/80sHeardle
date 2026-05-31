@@ -1761,8 +1761,6 @@ var app = (function() {
         },
       })),
 D.$on("click", function() {
-  console.log("PLAY BUTTON WRAPPER CLICKED", e[18] ? "pause" : "play");
-
   s(e[18] ? e[6] : e[5]) && (e[18] ? e[6] : e[5]).apply(this, arguments);
 }), {
         c() {
@@ -2335,8 +2333,38 @@ D.$on("click", function() {
       x = !1,
       b = !1,
       S = !1;
+    function O(e, t) {
+      try {
+        const n = D && D.querySelector("iframe");
+        n && n.contentWindow && n.contentWindow.postMessage(JSON.stringify(void 0 === t ? {
+          method: e
+        } : {
+          method: e,
+          value: t
+        }), "*");
+      } catch (e) {}
+    }
+    function Pn(e) {
+      y || T();
+      try {
+        e && y && y.seekTo && y.seekTo(0);
+      } catch (e) {}
+      try {
+        y && y.play && y.play();
+      } catch (e) {}
+      e && O("seekTo", 0),
+        O("play"),
+        setTimeout(function() {
+          e && O("seekTo", 0), O("play");
+        }, 350),
+        $(!0),
+        n(12, (x = !0));
+    }
     const M = () => {
-      y.seekTo(0), y.pause();
+      try {
+        y && y.seekTo && y.seekTo(0), y && y.pause && y.pause();
+      } catch (e) {}
+      O("seekTo", 0), O("pause"), $(!1);
     };
 
     function $(e) {
@@ -2352,6 +2380,7 @@ D.$on("click", function() {
       if (!e) return;
       j = !0;
       y = SC.Widget(e);
+      try { window.soundcloudWidget = y; } catch (e) {}
 
       function t(e) {
         if (B) return;
@@ -2481,9 +2510,7 @@ D.$on("click", function() {
         m,
         p,
 () => {
-  if (!y) return;
-  y.seekTo(0);
-  y.play();
+  Pn(!0);
 },
         M,
         o,
@@ -2508,12 +2535,10 @@ D.$on("click", function() {
               T());
         },
         () => {
-          y && y.toggle();
+          r ? M() : Pn(!1);
         },
 () => {
-  if (!y) return;
-  y.seekTo(0);
-  y.play();
+  Pn(!0);
 },
         () => {
           window.location.reload();

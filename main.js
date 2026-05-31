@@ -10855,10 +10855,6 @@ y.getCurrentSound(function(e) {
             answer: "Bryan Adams - Run To You",
           },
           {
-            url: "https://soundcloud.com/rhinorecords/george-benson-give-me-the-night",
-            answer: "George Benson - Give Me The Night",
-          },
-          {
             url: "https://soundcloud.com/u2/with-or-without-you-1",
             answer: "U2 - With Or Without You",
           },
@@ -11021,6 +11017,10 @@ y.getCurrentSound(function(e) {
                                                                                   {
             url: "https://soundcloud.com/bryan-adams-official/summer-of-69-classic-version",
             answer: "Bryan Adams - Summer Of '69",
+          },
+                    {
+            url: "https://soundcloud.com/rhinorecords/george-benson-give-me-the-night",
+            answer: "George Benson - Give Me The Night",
           },
                                                                                   {
             url: "https://soundcloud.com/julianlennonofficial/julian-lennon-too-late-for",

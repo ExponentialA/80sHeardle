@@ -9178,7 +9178,6 @@ y.getCurrentSound(function(e) {
     "Michael Jackson - Human Nature",
 "Guns N' Roses - Welcome To The Jungle",
       "Martika - Toy Soldiers",
-"Martika - Toy Soldiers",
 "The Jam - A Town Called Malice",
 "Bryan Adams - Run To You",
       "U2 - With Or Without You",
@@ -10845,10 +10844,6 @@ y.getCurrentSound(function(e) {
           },
           {
             url: "https://soundcloud.com/top-of-the-pops-80s/martika-toy-soldier",
-            answer: "Martika - Toy Soldiers",
-          },
-          {
-            url: "https://soundcloud.com/tompettyandtheheartbreakers/dont-do-me-like-that",
             answer: "Martika - Toy Soldiers",
           },
           {

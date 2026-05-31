@@ -2344,12 +2344,17 @@ D.$on("click", function() {
         musicIsPlaying: e,
       });
     }
-    let D;
+    let D, readyTimeout;
 
     function T() {
-      (y = SC.Widget("soundcloud" + h.id)).bind(
+      if (!D || !window.SC || !SC.Widget) return;
+      const widgetFrame = D.querySelector("iframe");
+      if (!widgetFrame) return;
+      (y = SC.Widget(widgetFrame)).bind(
         SC.Widget.Events.READY,
         function() {
+clearTimeout(readyTimeout);
+n(13, (S = !1));
 y.getCurrentSound(function(e) {
   if (!e) {
     n(9, (g = !0));
@@ -2405,10 +2410,12 @@ y.getCurrentSound(function(e) {
       "&auto_play=false&show_artwork=false&visual=false"),
       D.appendChild(e),
         (_ = !0),
+        window.SC && SC.Widget && ((k = !0), T()),
         k &&
-        (setTimeout(() => {
-            n(13, (S = !0));
-          }, 6e3),
+        (clearTimeout(readyTimeout),
+          (readyTimeout = setTimeout(() => {
+            !p.playerIsReady && n(13, (S = !0));
+          }, 2e4)),
           T());
     });
     return (
@@ -2461,9 +2468,10 @@ y.getCurrentSound(function(e) {
         function() {
           (k = !0),
           _ &&
-            (setTimeout(() => {
-                n(13, (S = !0));
-              }, 6e3),
+            (clearTimeout(readyTimeout),
+              (readyTimeout = setTimeout(() => {
+                !p.playerIsReady && n(13, (S = !0));
+              }, 2e4)),
               T());
         },
         () => {

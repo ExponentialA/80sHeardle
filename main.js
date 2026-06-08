@@ -10883,7 +10883,7 @@ y.getCurrentSound(function(e) {
             answer: "Bronski Beat - Smalltown Boy",
           },
           {
-            url: "https://soundcloud.com/bryan-adams-official/heat-of-the-night",
+            url: "https://soundcloud.com/bryanadams/heat-of-the-night",
             answer: "Bryan Adams - Heat Of The Night",
           },
           {

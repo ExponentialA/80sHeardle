@@ -9187,7 +9187,7 @@ y.getCurrentSound(function(e) {
       "Madonna - La Isla Bonita",
     "Queen - Radio Ga Ga",
 "Bronski Beat - Smalltown Boy",
-      "Bryan Adams - Heat Of The Night",
+      "Bryan Adams - ",
       "The Pretenders - Don't Get Me Wrong",
       "Europe - The Final Countdown",
     "Lionel Richie - Say You, Say Me",
@@ -9250,7 +9250,7 @@ y.getCurrentSound(function(e) {
 "Chaka Khan - Ain't Nobody",
 "Michael Jackson & Paul McCartney - The Girl Is Mine",
 "Joan Jett & The Blackhearts - I Love Rock And Roll",
-"Sandra - In The Heat Of The Night",
+"Sandra - In The ",
 "Tommy Tutone - 8675309/Jenny",
 "Willie Nelson - Always On My Mind",
 "Asia - Heat Of The Moment",
@@ -10883,7 +10883,7 @@ y.getCurrentSound(function(e) {
             answer: "Bronski Beat - Smalltown Boy",
           },
           {
-            url: "https://soundcloud.com/bryanadams/heat-of-the-night",
+            url: "https://soundcloud.com/bryanadams/sets/heat-of-the-night-6",
             answer: "Bryan Adams - Heat Of The Night",
           },
           {

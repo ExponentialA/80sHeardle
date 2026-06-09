@@ -9187,7 +9187,7 @@ y.getCurrentSound(function(e) {
       "Madonna - La Isla Bonita",
     "Queen - Radio Ga Ga",
 "Bronski Beat - Smalltown Boy",
-      "Bryan Adams - ",
+      "Bryan Adams - Heat Of The Night",
       "The Pretenders - Don't Get Me Wrong",
       "Europe - The Final Countdown",
     "Lionel Richie - Say You, Say Me",

@@ -10474,6 +10474,7 @@ y.getCurrentSound(function(e) {
     "Samantha Fox - Hold On Tight",
     "Mel & Kim - Respectable",
     "Bon Jovi - Wild In The Streets",
+    "Don Henley - Sunset Grill",
     "Eighth Wonder - Cross My Heart",
     "Robbie Robertson - Somewhere Down The Crazy River",
 "Neneh Cherry - Manchild",
@@ -16039,6 +16040,10 @@ y.getCurrentSound(function(e) {
                                                                                                                                                                                               {
             url: "https://soundcloud.com/bonjovi/wild-in-the-streets",
             answer: "Bon Jovi - Wild In The Streets",
+          },
+                                                                                                                                                                                                        {
+            url: "https://soundcloud.com/don-henley-official/sunset-grill",
+            answer: "Don Henley - Sunset Grill",
           },
                                                                                                                                                                                               {
             url: "https://soundcloud.com/eighthwonderofficial/cross-my-heart",

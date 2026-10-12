@@ -11388,7 +11388,7 @@ y.getCurrentSound(function(e) {
             answer: "Talking Heads - Road To Nowhere",
           },
                                                                                           {
-            url: "https://soundcloud.com/marco-rentsch-797668172/leonardo-nunes-sandra-maria-magdalena-1985-legendado-hq",
+            url: "https://soundcloud.com/michel-fayez/sandra-maria-magdalena",
             answer: "Sandra - Maria Magdalena",
           },
                                                                                           {
